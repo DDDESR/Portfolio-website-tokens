@@ -444,7 +444,7 @@
     "id": "brand-alpha",
     "name": "Alpha",
     "selectedTokenSets": {
-      "Core / Brand / Alpha": "enabled"
+      "Core/Brand/Alpha": "enabled"
     },
     "$figmaStyleReferences": {
       "Typography.Display.2X-Large": "S:4bdb4064e16e59188c9d70fe903107e59e6352b5,",
@@ -628,7 +628,7 @@
     "selectedTokenSets": {
       "Core": "source",
       "Responsive/Desktop": "source",
-      "Core / Brand / Beta (1200)": "enabled"
+      "Core/Brand/Beta-(1200)": "enabled"
     },
     "$figmaStyleReferences": {
       "Typography.Display.2X-Large": "S:4bdb4064e16e59188c9d70fe903107e59e6352b5,",
