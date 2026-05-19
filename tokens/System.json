@@ -287,7 +287,7 @@
           "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
         },
         "pressed": {
-          "value": "{color.neutral-tonal.900}",
+          "value": "{color.neutral-tonal.800}",
           "type": "color",
           "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
         },
@@ -419,7 +419,7 @@
             "description": "High contrast border for dividers and prominent outlines on inverse canvas."
           },
           "hover": {
-            "value": "{color.neutral-tonal.900}",
+            "value": "{color.neutral-tonal.800}",
             "type": "color",
             "description": "High contrast border for dividers and prominent outlines on inverse canvas."
           },
@@ -451,7 +451,7 @@
             "description": "Medium weight border for card outlines and section dividers on inverse canvas."
           },
           "pressed": {
-            "value": "{color.neutral-tonal.900}",
+            "value": "{color.neutral-tonal.800}",
             "type": "color",
             "description": "Medium weight border for card outlines and section dividers on inverse canvas."
           },
@@ -624,7 +624,7 @@
               "description": "Solid button background on dark surface. White fill for contrast."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.900}",
+              "value": "{color.neutral-tonal.800}",
               "type": "color",
               "description": "Solid button background when disabled, on dark surface."
             }
