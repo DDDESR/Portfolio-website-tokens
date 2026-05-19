@@ -1,0 +1,138 @@
+{
+  "Content": {
+    "spacing": {
+      "xl": {
+        "value": "100px",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "32px",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "16px",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "100px",
+        "type": "dimension"
+      }
+    }
+  },
+  "Image-Radii": {
+    "value": "0px",
+    "type": "dimension"
+  },
+  "Container": {
+    "Height": {
+      "Jumbo": {
+        "value": "1200px",
+        "type": "dimension"
+      },
+      "100vh": {
+        "value": "900px",
+        "type": "dimension"
+      }
+    }
+  },
+  "Page Margin": {
+    "value": "64px",
+    "type": "dimension"
+  },
+  "Image-height": {
+    "value": "880px",
+    "type": "dimension"
+  },
+  "Section": {
+    "md": {
+      "value": "80px",
+      "type": "dimension"
+    }
+  },
+  "Image-width": {
+    "value": "1408px",
+    "type": "dimension"
+  },
+  "Double-up": {
+    "value": "400px",
+    "type": "dimension"
+  },
+  "Caption-to-header": {
+    "value": "48px",
+    "type": "dimension"
+  },
+  "Website-Grid": {
+    "value": "3px",
+    "type": "dimension"
+  },
+  "Breakpoint": {
+    "1920": {
+      "value": "1280px",
+      "type": "dimension"
+    }
+  },
+  "Grid": {
+    "Columns": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "Gutter": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "Column": {
+      "1": {
+        "value": "417px",
+        "type": "dimension"
+      },
+      "2": {
+        "value": "417px",
+        "type": "dimension"
+      },
+      "3": {
+        "value": "417px",
+        "type": "dimension"
+      },
+      "4": {
+        "value": "564px",
+        "type": "dimension"
+      },
+      "5": {
+        "value": "564px",
+        "type": "dimension"
+      },
+      "6": {
+        "value": "564px",
+        "type": "dimension"
+      },
+      "7": {
+        "value": "858px",
+        "type": "dimension"
+      },
+      "8": {
+        "value": "858px",
+        "type": "dimension"
+      },
+      "9": {
+        "value": "858px",
+        "type": "dimension"
+      },
+      "10": {
+        "value": "1152px",
+        "type": "dimension"
+      },
+      "11": {
+        "value": "1152px",
+        "type": "dimension"
+      },
+      "12": {
+        "value": "1152px",
+        "type": "dimension"
+      }
+    }
+  },
+  "Rails": {
+    "value": "40px",
+    "type": "dimension"
+  }
+}
