@@ -319,7 +319,7 @@
           "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
         },
         "active": {
-          "value": "{color.neutral-tonal.600}",
+          "value": "{color.neutral-tonal.500}",
           "type": "color",
           "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
         },
@@ -371,7 +371,7 @@
             "description": "Default dark background surface for inverse sections and dark mode."
           },
           "pressed": {
-            "value": "{color.neutral-tonal.1400}",
+            "value": "{color.neutral-tonal.1300}",
             "type": "color",
             "description": "Default dark background surface for inverse sections and dark mode."
           }
@@ -383,7 +383,7 @@
             "description": "Slightly lighter dark surface for cards and containers on the inverse background."
           },
           "hover": {
-            "value": "{color.neutral-tonal.1400}",
+            "value": "{color.neutral-tonal.1300}",
             "type": "color",
             "description": "Slightly lighter dark surface for cards and containers on the inverse background."
           },
@@ -784,7 +784,7 @@
               "description": "Low emphasis text or icon on press, on dark surface."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.1400}",
+              "value": "{color.neutral-tonal.1300}",
               "type": "color",
               "description": "Low emphasis text or icon when disabled, on dark surface."
             }
@@ -815,7 +815,7 @@
         "muted": {
           "fill": {
             "default": {
-              "value": "{color.neutral-tonal.1400}",
+              "value": "{color.neutral-tonal.1500}",
               "type": "color",
               "description": "Ghost button resting background on dark surface. Always transparent."
             },
