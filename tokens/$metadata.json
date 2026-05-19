@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Core/Brand/Alpha",
-    "Core/Brand/Beta",
+    "Brand/Alpha",
+    "Brand/Beta",
     "System",
     "Responsive/Desktop",
     "Responsive/Laptop",
