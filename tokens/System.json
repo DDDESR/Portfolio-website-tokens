@@ -134,7 +134,8 @@
           "fontSize": "{typography.fontSize.Body.Large}",
           "fontFamily": "{typography.fontFamily.beta}",
           "fontWeight": "{typography.fontWeight.body.default}",
-          "lineHeight": "135%"
+          "lineHeight": "135%",
+          "paragraphSpacing": "{dimension.scale.24}"
         },
         "type": "typography"
       },
@@ -220,617 +221,332 @@
     }
   },
   "color": {
-    "canvas": {
-      "bg": {
-        "default": {
+    "surface": {
+      "default": {
+        "rest": {
           "value": "{color.neutral-tonal.100}",
           "type": "color",
           "description": "Default page and section background surface."
         },
-        "medium": {
+        "hover": {
+          "value": "{color.neutral-tonal.150}",
+          "type": "color",
+          "description": "Default page and section background surface."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.200}",
+          "type": "color",
+          "description": "Default page and section background surface."
+        }
+      },
+      "medium": {
+        "rest": {
           "value": "{color.neutral-tonal.150}",
           "type": "color",
           "description": "Slightly elevated surface, used for cards, panels, and containers on the default background."
         },
-        "strong": {
+        "hover": {
+          "value": "{color.neutral-tonal.200}",
+          "type": "color",
+          "description": "Slightly elevated surface, used for cards, panels, and containers on the default background."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.300}",
+          "type": "color",
+          "description": "Slightly elevated surface, used for cards, panels, and containers on the default background."
+        }
+      },
+      "strong": {
+        "rest": {
           "value": "{color.neutral-tonal.200}",
           "type": "color",
           "description": "High emphasis surface, used for nested containers or hover states on medium backgrounds."
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{color.neutral-tonal.1400}",
-          "type": "color",
-          "description": "Default text and icon colour on light canvas surfaces."
         },
-        "muted": {
-          "value": "rgba({color.canvas.fg.default.rest}, {opacity.70})",
+        "hover": {
+          "value": "{color.neutral-tonal.300}",
           "type": "color",
-          "description": "De-emphasised text and icons at 70% opacity, for secondary content on canvas."
+          "description": "High emphasis surface, used for nested containers or hover states on medium backgrounds."
         },
-        "subtle": {
-          "value": "rgba({color.canvas.fg.default.rest}, {opacity.50})",
+        "pressed": {
+          "value": "{color.neutral-tonal.400}",
           "type": "color",
-          "description": "Subtle text and icons at 50% opacity, for placeholder or tertiary content on canvas."
+          "description": "High emphasis surface, used for nested containers or hover states on medium backgrounds."
         }
-      },
-      "border": {
-        "strong": {
-          "value": "{color.neutral-tonal.600}",
+      }
+    },
+    "border": {
+      "strong": {
+        "rest": {
+          "value": "{color.neutral-tonal.700}",
           "type": "color",
           "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
         },
-        "subtle": {
+        "hover": {
+          "value": "{color.neutral-tonal.800}",
+          "type": "color",
+          "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.900}",
+          "type": "color",
+          "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
+        },
+        "active": {
+          "value": "{color.neutral-tonal.1000}",
+          "type": "color",
+          "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
+        },
+        "disabled": {
+          "value": "{color.neutral-tonal.300}",
+          "type": "color",
+          "description": "High contrast border for dividers, table edges, and prominent outlines on canvas."
+        }
+      },
+      "subtle": {
+        "rest": {
+          "value": "{color.neutral-tonal.300}",
+          "type": "color",
+          "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
+        },
+        "hover": {
+          "value": "{color.neutral-tonal.300}",
+          "type": "color",
+          "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
+        },
+        "pressed": {
           "value": "{color.neutral-tonal.400}",
           "type": "color",
           "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
         },
-        "muted": {
-          "value": "{color.neutral-tonal.300}",
+        "active": {
+          "value": "{color.neutral-tonal.600}",
           "type": "color",
-          "description": "Lightest border for subtle separators and de-emphasised outlines on canvas."
+          "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
+        },
+        "disabled": {
+          "value": "{color.neutral-tonal.200}",
+          "type": "color",
+          "description": "Medium weight border for card outlines, input fields, and section dividers on canvas."
         }
+      },
+      "muted": {
+        "value": "{color.neutral-tonal.300}",
+        "type": "color",
+        "description": "Lightest border for subtle separators and de-emphasised outlines on canvas."
+      },
+      "finesse": {
+        "value": "rgba( {color.black} , 0.08)",
+        "type": "color",
+        "description": "Lightest border for subtle separators and de-emphasised outlines on canvas."
+      }
+    },
+    "neutral-bg": {
+      "default": {
+        "value": "{color.neutral.25}",
+        "type": "color",
+        "description": "Default brandless canvas for case study pages."
+      },
+      "medium": {
+        "value": "{color.neutral.75}",
+        "type": "color",
+        "description": "Elevated surface on neutral canvas."
+      },
+      "strong": {
+        "value": "{color.neutral.100}",
+        "type": "color",
+        "description": "High emphasis surface on neutral canvas."
       }
     },
     "inv-canvas": {
-      "bg": {
+      "surface": {
         "default": {
-          "value": "{color.neutral-tonal.1600}",
-          "type": "color",
-          "description": "Default dark background surface for inverse sections and dark mode."
+          "rest": {
+            "value": "{color.neutral-tonal.1600}",
+            "type": "color",
+            "description": "Default dark background surface for inverse sections and dark mode."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.1500}",
+            "type": "color",
+            "description": "Default dark background surface for inverse sections and dark mode."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.1400}",
+            "type": "color",
+            "description": "Default dark background surface for inverse sections and dark mode."
+          }
         },
         "medium": {
-          "value": "{color.neutral-tonal.1400}",
-          "type": "color",
-          "description": "Slightly lighter dark surface for cards and containers on the inverse background."
+          "rest": {
+            "value": "{color.neutral-tonal.1500}",
+            "type": "color",
+            "description": "Slightly lighter dark surface for cards and containers on the inverse background."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.1400}",
+            "type": "color",
+            "description": "Slightly lighter dark surface for cards and containers on the inverse background."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.1300}",
+            "type": "color",
+            "description": "Slightly lighter dark surface for cards and containers on the inverse background."
+          }
         },
         "strong": {
-          "value": "{color.neutral.1300}",
-          "type": "color",
-          "description": "High emphasis dark surface, used for nested containers on the inverse background."
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{color.neutral.0}",
-          "type": "color",
-          "description": "Default text and icon colour on dark/inverse canvas surfaces."
-        },
-        "muted": {
-          "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.80})",
-          "type": "color",
-          "description": "De-emphasised text and icons at 80% opacity for secondary content on inverse canvas."
-        },
-        "subtle": {
-          "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.50})",
-          "type": "color",
-          "description": "Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas."
+          "rest": {
+            "value": "{color.neutral.1300}",
+            "type": "color",
+            "description": "High emphasis dark surface, used for nested containers on the inverse background."
+          },
+          "hover": {
+            "value": "{color.neutral.1100}",
+            "type": "color",
+            "description": "High emphasis dark surface, used for nested containers on the inverse background."
+          },
+          "pressed": {
+            "value": "{color.neutral.1000}",
+            "type": "color",
+            "description": "High emphasis dark surface, used for nested containers on the inverse background."
+          }
         }
       },
       "border": {
         "strong": {
-          "value": "{color.neutral-tonal.1000}",
-          "type": "color",
-          "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          "rest": {
+            "value": "{color.neutral-tonal.1000}",
+            "type": "color",
+            "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.900}",
+            "type": "color",
+            "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.800}",
+            "type": "color",
+            "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          },
+          "active": {
+            "value": "{color.neutral-tonal.700}",
+            "type": "color",
+            "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          },
+          "disabled": {
+            "value": "{color.neutral-tonal.1100}",
+            "type": "color",
+            "description": "High contrast border for dividers and prominent outlines on inverse canvas."
+          }
         },
         "subtle": {
-          "value": "{color.neutral-tonal.1100}",
-          "type": "color",
-          "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          "rest": {
+            "value": "{color.neutral-tonal.1100}",
+            "type": "color",
+            "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.1000}",
+            "type": "color",
+            "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.900}",
+            "type": "color",
+            "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          },
+          "active": {
+            "value": "{color.neutral-tonal.700}",
+            "type": "color",
+            "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          },
+          "disabled": {
+            "value": "{color.neutral-tonal.1100}",
+            "type": "color",
+            "description": "Medium weight border for card outlines and section dividers on inverse canvas."
+          }
         },
         "muted": {
-          "value": "{color.neutral-tonal.1200}",
+          "value": "{color.neutral-tonal.1300}",
+          "type": "color",
+          "description": "Lightest border for subtle separators and de-emphasised outlines on inverse canvas."
+        },
+        "finesse": {
+          "value": "rgba({color.white} , 0.1)",
           "type": "color",
           "description": "Lightest border for subtle separators and de-emphasised outlines on inverse canvas."
         }
       }
     },
-    "accent": {
-      "alpha": {
-        "low": {
-          "value": "{color.primary.300}",
-          "type": "color",
-          "description": "Low intensity primary brand accent, for tinted backgrounds and subtle brand moments."
-        },
-        "default": {
-          "value": "{color.primary.700}",
-          "type": "color",
-          "description": "Default primary brand accent colour for brand highlights and decorative elements."
-        },
+    "on-inverse": {
+      "fg": {
         "strong": {
-          "value": "{color.primary.900}",
-          "type": "color",
-          "description": "High intensity primary brand accent for bold brand moments and strong visual emphasis."
-        },
-        "fg": {
           "default": {
             "value": "{color.neutral.0}",
             "type": "color",
-            "description": "Default foreground on primary brand accent fill."
+            "description": "Default text and icon colour on dark/inverse canvas surfaces."
           },
-          "muted": {
-            "value": "{color.primary.400}",
+          "hover": {
+            "value": "{color.neutral.100}",
             "type": "color",
-            "description": "De-emphasised foreground on primary brand accent, for secondary text or icons."
+            "description": "Default text and icon colour on dark/inverse canvas surfaces."
           },
-          "subtle": {
-            "value": "{color.primary.500}",
+          "pressed": {
+            "value": "{color.neutral.200}",
             "type": "color",
-            "description": "Subtle foreground on primary brand accent, for tertiary text or icons."
-          }
-        }
-      },
-      "beta": {
-        "low": {
-          "value": "{color.secondary.300}",
-          "type": "color",
-          "description": "Low intensity secondary brand accent, for tinted backgrounds and subtle brand moments."
-        },
-        "default": {
-          "value": "{color.secondary.700}",
-          "type": "color",
-          "description": "Default secondary brand accent colour for brand highlights and decorative elements."
-        },
-        "strong": {
-          "value": "{color.secondary.800}",
-          "type": "color",
-          "description": "High intensity secondary brand accent for bold brand moments and strong visual emphasis."
-        },
-        "fg": {
-          "default": {
-            "value": "{color.neutral.900}",
+            "description": "Default text and icon colour on dark/inverse canvas surfaces."
+          },
+          "disabled": {
+            "value": "{color.neutral.1300}",
             "type": "color",
-            "description": "Default foreground on secondary brand accent fill."
-          },
-          "muted": {
-            "value": "{color.secondary.1100}",
-            "type": "color",
-            "description": "De-emphasised foreground on secondary brand accent, for secondary text or icons."
-          },
-          "subtle": {
-            "value": "{color.secondary.1100}",
-            "type": "color",
-            "description": "Subtle foreground on secondary brand accent, for tertiary text or icons."
-          }
-        }
-      }
-    },
-    "on-canvas": {
-      "action": {
-        "primary": {
-          "fill": {
-            "default": {
-              "value": "{color.primary.500}",
-              "type": "color",
-              "description": "Primary CTA button background. Branded, highest emphasis."
-            },
-            "hover": {
-              "value": "{color.primary.600}",
-              "type": "color",
-              "description": "Primary CTA button background on hover."
-            },
-            "pressed": {
-              "value": "{color.primary.700}",
-              "type": "color",
-              "description": "Primary CTA button background on press."
-            },
-            "disabled": {
-              "value": "{color.primary.200}",
-              "type": "color",
-              "description": "Primary CTA button background when disabled."
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{color.neutral.1600}",
-              "type": "color",
-              "description": "Primary CTA button fg. Always on brand fill."
-            },
-            "hover": {
-              "value": "{color.neutral.1300}",
-              "type": "color",
-              "description": "Primary CTA button fg on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral.1100}",
-              "type": "color",
-              "description": "Primary CTA button fg on press."
-            },
-            "disabled": {
-              "value": "{color.primary.300}",
-              "type": "color",
-              "description": "Primary CTA button fg when disabled."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border."
-            },
-            "hover": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border on hover."
-            },
-            "pressed": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border on press."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border when disabled."
-            }
-          }
-        },
-        "solid": {
-          "fill": {
-            "default": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "Solid button background. High emphasis neutral fill."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "Solid button background on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1000}",
-              "type": "color",
-              "description": "Solid button background on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.300}",
-              "type": "color",
-              "description": "Solid button background when disabled."
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{color.neutral.25}",
-              "type": "color",
-              "description": "Solid button fg. Always on dark fill, always near-white."
-            },
-            "hover": {
-              "value": "{color.neutral.25}",
-              "type": "color",
-              "description": "Solid button fg on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral.25}",
-              "type": "color",
-              "description": "Solid button fg on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Solid button fg when disabled."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border."
-            },
-            "hover": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border on hover."
-            },
-            "pressed": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border on press."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border when disabled."
-            }
-          }
-        },
-        "subtle": {
-          "fill": {
-            "default": {
-              "value": "{color.neutral-tonal.300}",
-              "type": "color",
-              "description": "Subtle button resting background. Light tinted fill to distinguish from ghost."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.400}",
-              "type": "color",
-              "description": "Subtle button background on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.500}",
-              "type": "color",
-              "description": "Subtle button background on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.75}",
-              "type": "color",
-              "description": "Subtle button background when disabled."
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Subtle button fg. Sits on canvas or subtle fill, always near-black."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "Subtle button fg on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "Subtle button fg on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Subtle button fg when disabled."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "{color.neutral-tonal.300}",
-              "type": "color",
-              "description": "Subtle button border. Outline style, near-black stroke."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.500}",
-              "type": "color",
-              "description": "Subtle button border on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1200}",
-              "type": "color",
-              "description": "Subtle button border on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.300}",
-              "type": "color",
-              "description": "Subtle button border when disabled."
-            }
-          }
-        },
-        "ghost": {
-          "fill": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button resting background. Always transparent."
-            },
-            "hover": {
-              "value": "{color.neutral.75}",
-              "type": "color",
-              "description": "Ghost button background on hover. Barely-there fill."
-            },
-            "pressed": {
-              "value": "{color.neutral.100}",
-              "type": "color",
-              "description": "Ghost button background on press."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button background when disabled."
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Ghost button fg. Sits directly on canvas, always near-black."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "Ghost button fg on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "Ghost button fg on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Ghost button fg when disabled."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button has no border."
-            },
-            "hover": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button has no border on hover."
-            },
-            "pressed": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button has no border on press."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Ghost button has no border when disabled."
-            }
-          }
-        },
-        "fg": {
-          "strong": {
-            "default": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "High emphasis text or icon. Ghost button label, icon button, high emphasis link."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "High emphasis text or icon on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "High emphasis text or icon on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "High emphasis text or icon when disabled."
-            }
-          },
-          "subtle": {
-            "default": {
-              "value": "{color.neutral-tonal.900}",
-              "type": "color",
-              "description": "Medium emphasis text or icon. Nav links, tab labels, supporting actions."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "Medium emphasis text or icon on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Medium emphasis text or icon on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Medium emphasis text or icon when disabled."
-            }
-          },
-          "muted": {
-            "default": {
-              "value": "{color.neutral-tonal.700}",
-              "type": "color",
-              "description": "Low emphasis text or icon. Breadcrumbs, footer links, metadata, de-emphasised actions."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.900}",
-              "type": "color",
-              "description": "Low emphasis text or icon on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "Low emphasis text or icon on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Low emphasis text or icon when disabled."
-            }
-          },
-          "brand": {
-            "default": {
-              "value": "{color.primary.500}",
-              "type": "color",
-              "description": "Branded text or icon. Inline text links, branded interactive elements."
-            },
-            "hover": {
-              "value": "{color.primary.600}",
-              "type": "color",
-              "description": "Branded text or icon on hover."
-            },
-            "pressed": {
-              "value": "{color.primary.700}",
-              "type": "color",
-              "description": "Branded text or icon on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Branded text or icon when disabled."
-            }
+            "description": "Default text and icon colour on dark/inverse canvas surfaces."
           }
         },
         "muted": {
-          "fill": {
-            "default": {
-              "value": "{color.neutral.150}",
-              "type": "color",
-              "description": "Subtle button resting background. Light tinted fill to distinguish from ghost."
-            },
-            "hover": {
-              "value": "{color.neutral.150}",
-              "type": "color",
-              "description": "Subtle button background on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral.200}",
-              "type": "color",
-              "description": "Subtle button background on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.75}",
-              "type": "color",
-              "description": "Subtle button background when disabled."
-            }
+          "rest": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.80})",
+            "type": "color",
+            "description": "De-emphasised text and icons at 80% opacity for secondary content on inverse canvas."
           },
-          "fg": {
-            "default": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Subtle button fg. Sits on canvas or subtle fill, always near-black."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1300}",
-              "type": "color",
-              "description": "Subtle button fg on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1100}",
-              "type": "color",
-              "description": "Subtle button fg on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.500}",
-              "type": "color",
-              "description": "Subtle button fg when disabled."
-            }
+          "hover": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.60})",
+            "type": "color",
+            "description": "De-emphasised text and icons at 80% opacity for secondary content on inverse canvas."
           },
-          "stroke": {
-            "default": {
-              "value": "{color.neutral-tonal.800}",
-              "type": "color",
-              "description": "Subtle button border. Outline style, near-black stroke."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1000}",
-              "type": "color",
-              "description": "Subtle button border on hover."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1200}",
-              "type": "color",
-              "description": "Subtle button border on press."
-            },
-            "disabled": {
-              "value": "{color.neutral.300}",
-              "type": "color",
-              "description": "Subtle button border when disabled."
-            }
+          "pressed": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.40})",
+            "type": "color",
+            "description": "De-emphasised text and icons at 80% opacity for secondary content on inverse canvas."
+          },
+          "pressed-copy": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.90})",
+            "type": "color",
+            "description": "De-emphasised text and icons at 80% opacity for secondary content on inverse canvas."
+          }
+        },
+        "subtle": {
+          "rest": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.50})",
+            "type": "color",
+            "description": "Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas."
+          },
+          "hover": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.40})",
+            "type": "color",
+            "description": "Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas."
+          },
+          "pressed": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.30})",
+            "type": "color",
+            "description": "Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas."
+          },
+          "pressed-copy": {
+            "value": "rgba( {color.on-inverse.fg.strong.default} , {opacity.90})",
+            "type": "color",
+            "description": "Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas."
           }
         }
-      }
-    },
-    "on-inverse": {
+      },
       "action": {
         "primary": {
           "fill": {
@@ -876,31 +592,9 @@
               "type": "color",
               "description": "Primary CTA button fg when disabled, on dark surface."
             }
-          },
-          "stroke": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border, on dark surface."
-            },
-            "hover": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border on hover, on dark surface."
-            },
-            "pressed": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border on press, on dark surface."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Primary CTA button has no border when disabled, on dark surface."
-            }
           }
         },
-        "solid": {
+        "emphasis": {
           "fill": {
             "default": {
               "value": "{color.neutral.25}",
@@ -918,53 +612,21 @@
               "description": "Solid button background on press, on dark surface."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.1200}",
+              "value": "{color.neutral-tonal.1100}",
               "type": "color",
               "description": "Solid button background when disabled, on dark surface."
             }
           },
           "fg": {
             "default": {
-              "value": "{color.neutral-tonal.1600}",
+              "value": "{color.neutral.1500}",
               "type": "color",
-              "description": "Solid button fg on dark surface. Always on white fill, always near-black."
-            },
-            "hover": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Solid button fg on hover, on dark surface."
-            },
-            "pressed": {
-              "value": "{color.neutral-tonal.1600}",
-              "type": "color",
-              "description": "Solid button fg on press, on dark surface."
+              "description": "Solid button background on dark surface. White fill for contrast."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.1000}",
+              "value": "{color.neutral-tonal.900}",
               "type": "color",
-              "description": "Solid button fg when disabled, on dark surface."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border, on dark surface."
-            },
-            "hover": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border on hover, on dark surface."
-            },
-            "pressed": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border on press, on dark surface."
-            },
-            "disabled": {
-              "value": "rgba(0,0,0,0)",
-              "type": "color",
-              "description": "Solid button has no border when disabled, on dark surface."
+              "description": "Solid button background when disabled, on dark surface."
             }
           }
         },
@@ -976,63 +638,19 @@
               "description": "Subtle button resting background on dark surface."
             },
             "hover": {
-              "value": "{color.neutral-tonal.1200}",
+              "value": "{color.neutral-tonal.1100}",
               "type": "color",
               "description": "Subtle button background on hover, on dark surface."
             },
             "pressed": {
-              "value": "{color.neutral-tonal.1100}",
+              "value": "{color.neutral-tonal.1000}",
               "type": "color",
               "description": "Subtle button background on press, on dark surface."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.1400}",
+              "value": "{color.neutral-tonal.1500}",
               "type": "color",
               "description": "Subtle button background when disabled, on dark surface."
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{color.neutral.25}",
-              "type": "color",
-              "description": "Subtle button fg on dark surface. Near-white for contrast."
-            },
-            "hover": {
-              "value": "{color.neutral.100}",
-              "type": "color",
-              "description": "Subtle button fg on hover, on dark surface."
-            },
-            "pressed": {
-              "value": "{color.neutral.200}",
-              "type": "color",
-              "description": "Subtle button fg on press, on dark surface."
-            },
-            "disabled": {
-              "value": "{color.neutral-tonal.1000}",
-              "type": "color",
-              "description": "Subtle button fg when disabled, on dark surface."
-            }
-          },
-          "stroke": {
-            "default": {
-              "value": "{color.neutral.1000}",
-              "type": "color",
-              "description": "Subtle button border on dark surface."
-            },
-            "hover": {
-              "value": "{color.neutral.100}",
-              "type": "color",
-              "description": "Subtle button border on hover, on dark surface."
-            },
-            "pressed": {
-              "value": "{color.neutral.200}",
-              "type": "color",
-              "description": "Subtle button border on press, on dark surface."
-            },
-            "disabled": {
-              "value": "{color.neutral-tonal.1000}",
-              "type": "color",
-              "description": "Subtle button border when disabled, on dark surface."
             }
           }
         },
@@ -1049,7 +667,7 @@
               "description": "Ghost button background on hover, on dark surface."
             },
             "pressed": {
-              "value": "{color.neutral-tonal.1200}",
+              "value": "{color.neutral-tonal.1100}",
               "type": "color",
               "description": "Ghost button background on press, on dark surface."
             },
@@ -1151,22 +769,22 @@
           },
           "muted": {
             "default": {
-              "value": "{color.neutral.500}",
+              "value": "{color.neutral.1300}",
               "type": "color",
               "description": "Low emphasis text or icon on dark surface. Breadcrumbs, footer links, metadata."
             },
             "hover": {
-              "value": "{color.neutral.300}",
+              "value": "{color.neutral.1100}",
               "type": "color",
               "description": "Low emphasis text or icon on hover, on dark surface."
             },
             "pressed": {
-              "value": "{color.neutral.100}",
+              "value": "{color.neutral.1000}",
               "type": "color",
               "description": "Low emphasis text or icon on press, on dark surface."
             },
             "disabled": {
-              "value": "{color.neutral-tonal.1000}",
+              "value": "{color.neutral-tonal.1400}",
               "type": "color",
               "description": "Low emphasis text or icon when disabled, on dark surface."
             }
@@ -1193,6 +811,400 @@
               "description": "Branded text or icon when disabled, on dark surface."
             }
           }
+        },
+        "muted": {
+          "fill": {
+            "default": {
+              "value": "{color.neutral-tonal.1400}",
+              "type": "color",
+              "description": "Ghost button resting background on dark surface. Always transparent."
+            },
+            "hover": {
+              "value": "{color.neutral-tonal.1300}",
+              "type": "color",
+              "description": "Ghost button background on hover, on dark surface."
+            },
+            "pressed": {
+              "value": "{color.neutral-tonal.1100}",
+              "type": "color",
+              "description": "Ghost button background on press, on dark surface."
+            },
+            "disabled": {
+              "value": "{color.neutral.800}",
+              "type": "color",
+              "description": "Ghost button background when disabled, on dark surface."
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.neutral-tonal.200}",
+              "type": "color",
+              "description": "Ghost button fg on dark surface. Sits directly on dark canvas, near-white."
+            },
+            "hover": {
+              "value": "{color.neutral-tonal.300}",
+              "type": "color",
+              "description": "Ghost button fg on hover, on dark surface."
+            },
+            "pressed": {
+              "value": "{color.neutral.200}",
+              "type": "color",
+              "description": "Ghost button fg on press, on dark surface."
+            },
+            "disabled": {
+              "value": "{color.neutral-tonal.800}",
+              "type": "color",
+              "description": "Ghost button fg when disabled, on dark surface."
+            }
+          },
+          "stroke": {
+            "default": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color",
+              "description": "Ghost button has no border, on dark surface."
+            },
+            "hover": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color",
+              "description": "Ghost button has no border on hover, on dark surface."
+            },
+            "pressed": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color",
+              "description": "Ghost button has no border on press, on dark surface."
+            },
+            "disabled": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color",
+              "description": "Ghost button has no border when disabled, on dark surface."
+            }
+          }
+        }
+      }
+    },
+    "accent": {
+      "alpha": {
+        "low": {
+          "value": "{color.primary.300}",
+          "type": "color",
+          "description": "Low intensity primary brand accent, for tinted backgrounds and subtle brand moments."
+        },
+        "default": {
+          "value": "{color.primary.700}",
+          "type": "color",
+          "description": "Default primary brand accent colour for brand highlights and decorative elements."
+        },
+        "strong": {
+          "value": "{color.primary.1000}",
+          "type": "color",
+          "description": "High intensity primary brand accent for bold brand moments and strong visual emphasis."
+        },
+        "fg": {
+          "default": {
+            "value": "{color.neutral.0}",
+            "type": "color",
+            "description": "Default foreground on primary brand accent fill."
+          },
+          "muted": {
+            "value": "{color.primary.400}",
+            "type": "color",
+            "description": "De-emphasised foreground on primary brand accent, for secondary text or icons."
+          },
+          "subtle": {
+            "value": "{color.primary.500}",
+            "type": "color",
+            "description": "Subtle foreground on primary brand accent, for tertiary text or icons."
+          }
+        }
+      },
+      "beta": {
+        "low": {
+          "value": "{color.secondary.300}",
+          "type": "color",
+          "description": "Low intensity secondary brand accent, for tinted backgrounds and subtle brand moments."
+        },
+        "default": {
+          "value": "{color.secondary.700}",
+          "type": "color",
+          "description": "Default secondary brand accent colour for brand highlights and decorative elements."
+        },
+        "strong": {
+          "value": "{color.secondary.800}",
+          "type": "color",
+          "description": "High intensity secondary brand accent for bold brand moments and strong visual emphasis."
+        },
+        "fg": {
+          "default": {
+            "value": "{color.neutral.1000}",
+            "type": "color",
+            "description": "Default foreground on secondary brand accent fill."
+          },
+          "muted": {
+            "value": "{color.secondary.1100}",
+            "type": "color",
+            "description": "De-emphasised foreground on secondary brand accent, for secondary text or icons."
+          },
+          "subtle": {
+            "value": "{color.secondary.1100}",
+            "type": "color",
+            "description": "Subtle foreground on secondary brand accent, for tertiary text or icons."
+          }
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "fill": {
+          "default": {
+            "value": "{color.primary.500}",
+            "type": "color",
+            "description": "Primary CTA button background. Branded, highest emphasis."
+          },
+          "hover": {
+            "value": "{color.primary.700}",
+            "type": "color",
+            "description": "Primary CTA button background on hover."
+          },
+          "pressed": {
+            "value": "{color.primary.800}",
+            "type": "color",
+            "description": "Primary CTA button background on press."
+          },
+          "disabled": {
+            "value": "{color.primary.200}",
+            "type": "color",
+            "description": "Primary CTA button background when disabled."
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{color.neutral.1600}",
+            "type": "color",
+            "description": "Primary CTA button fg. Always on brand fill."
+          },
+          "hover": {
+            "value": "{color.neutral.1300}",
+            "type": "color",
+            "description": "Primary CTA button fg on hover."
+          },
+          "pressed": {
+            "value": "{color.neutral.1100}",
+            "type": "color",
+            "description": "Primary CTA button fg on press."
+          },
+          "disabled": {
+            "value": "{color.primary.300}",
+            "type": "color",
+            "description": "Primary CTA button fg when disabled."
+          }
+        }
+      },
+      "emphasis": {
+        "fill": {
+          "default": {
+            "value": "{color.neutral-tonal.1300}",
+            "type": "color",
+            "description": "Solid button background. High emphasis neutral fill."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.1100}",
+            "type": "color",
+            "description": "Solid button background on hover."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.1000}",
+            "type": "color",
+            "description": "Solid button background on press."
+          },
+          "disabled": {
+            "value": "{color.neutral.300}",
+            "type": "color",
+            "description": "Solid button background when disabled."
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{color.neutral.25}",
+            "type": "color",
+            "description": "Solid button fg. Always on dark fill, always near-white."
+          },
+          "hover": {
+            "value": "{color.neutral.25}",
+            "type": "color",
+            "description": "Solid button fg on hover."
+          },
+          "pressed": {
+            "value": "{color.neutral.25}",
+            "type": "color",
+            "description": "Solid button fg on press."
+          },
+          "disabled": {
+            "value": "{color.neutral.500}",
+            "type": "color",
+            "description": "Solid button fg when disabled."
+          }
+        }
+      },
+      "subtle": {
+        "fill": {
+          "default": {
+            "value": "{color.neutral-tonal.300}",
+            "type": "color",
+            "description": "Subtle button resting background. Light tinted fill to distinguish from ghost."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.400}",
+            "type": "color",
+            "description": "Subtle button background on hover."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.500}",
+            "type": "color",
+            "description": "Subtle button background on press."
+          },
+          "disabled": {
+            "value": "{color.neutral.75}",
+            "type": "color",
+            "description": "Subtle button background when disabled."
+          }
+        }
+      },
+      "ghost": {
+        "fill": {
+          "default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color",
+            "description": "Ghost button resting background. Always transparent."
+          },
+          "hover": {
+            "value": "{color.neutral.75}",
+            "type": "color",
+            "description": "Ghost button background on hover. Barely-there fill."
+          },
+          "pressed": {
+            "value": "{color.neutral.100}",
+            "type": "color",
+            "description": "Ghost button background on press."
+          },
+          "disabled": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color",
+            "description": "Ghost button background when disabled."
+          }
+        }
+      },
+      "muted": {
+        "fill": {
+          "default": {
+            "value": "{color.neutral-tonal.200}",
+            "type": "color",
+            "description": "Subtle button resting background. Light tinted fill to distinguish from ghost."
+          },
+          "hover": {
+            "value": "{color.neutral-tonal.300}",
+            "type": "color",
+            "description": "Subtle button background on hover."
+          },
+          "pressed": {
+            "value": "{color.neutral-tonal.400}",
+            "type": "color",
+            "description": "Subtle button background on press."
+          },
+          "disabled": {
+            "value": "{color.neutral.75}",
+            "type": "color",
+            "description": "Subtle button background when disabled."
+          }
+        }
+      }
+    },
+    "fg": {
+      "strong": {
+        "default": {
+          "value": "{color.neutral-tonal.1600}",
+          "type": "color",
+          "description": "High emphasis text or icon. Ghost button label, icon button, high emphasis link."
+        },
+        "hover": {
+          "value": "{color.neutral-tonal.1300}",
+          "type": "color",
+          "description": "High emphasis text or icon on hover."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.1100}",
+          "type": "color",
+          "description": "High emphasis text or icon on press."
+        },
+        "disabled": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "High emphasis text or icon when disabled."
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.neutral-tonal.1000}",
+          "type": "color",
+          "description": "Medium emphasis text or icon. Nav links, tab labels, supporting actions."
+        },
+        "hover": {
+          "value": "{color.neutral-tonal.1300}",
+          "type": "color",
+          "description": "Medium emphasis text or icon on hover."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.1600}",
+          "type": "color",
+          "description": "Medium emphasis text or icon on press."
+        },
+        "disabled": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "Medium emphasis text or icon when disabled."
+        }
+      },
+      "muted": {
+        "default": {
+          "value": "{color.neutral-tonal.700}",
+          "type": "color",
+          "description": "Low emphasis text or icon. Breadcrumbs, footer links, metadata, de-emphasised actions."
+        },
+        "hover": {
+          "value": "{color.neutral-tonal.1000}",
+          "type": "color",
+          "description": "Low emphasis text or icon on hover."
+        },
+        "pressed": {
+          "value": "{color.neutral-tonal.1100}",
+          "type": "color",
+          "description": "Low emphasis text or icon on press."
+        },
+        "disabled": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "Low emphasis text or icon when disabled."
+        }
+      },
+      "brand": {
+        "default": {
+          "value": "{color.primary.500}",
+          "type": "color",
+          "description": "Branded text or icon. Inline text links, branded interactive elements."
+        },
+        "hover": {
+          "value": "{color.primary.700}",
+          "type": "color",
+          "description": "Branded text or icon on hover."
+        },
+        "pressed": {
+          "value": "{color.primary.800}",
+          "type": "color",
+          "description": "Branded text or icon on press."
+        },
+        "disabled": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "Branded text or icon when disabled."
         }
       }
     },
@@ -1367,7 +1379,7 @@
             "value": "{color.white}",
             "type": "color"
           },
-          "sublt": {
+          "sublte": {
             "value": "rgba({color.non-adaptive.white.fg.default}, 0.7)",
             "type": "color"
           },
@@ -1387,7 +1399,7 @@
             "value": "{color.black}",
             "type": "color"
           },
-          "sublt": {
+          "sublte": {
             "value": "rgba({color.non-adaptive.black.fg.default}, 0.7)",
             "type": "color"
           },
