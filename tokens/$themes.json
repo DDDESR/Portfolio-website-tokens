@@ -628,7 +628,7 @@
     "selectedTokenSets": {
       "Core": "source",
       "Responsive/Desktop": "source",
-      "Brand/Beta": "enabled"
+      "Brand/Bravo": "enabled"
     },
     "$figmaStyleReferences": {
       "Typography.Display.2X-Large": "S:4bdb4064e16e59188c9d70fe903107e59e6352b5,",
