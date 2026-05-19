@@ -1,0 +1,61 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --typography-font-size-display-xs: 40px;
+  --typography-font-size-display-small: 64px;
+  --typography-font-size-display-medium: 96px;
+  --typography-font-size-display-large: 112px;
+  --typography-font-size-display-x-large: 124px;
+  --typography-font-size-display-2-x-large: 154px;
+  --typography-font-size-header-xs: 20px;
+  --typography-font-size-header-small: 24px;
+  --typography-font-size-header-medium: 40px;
+  --typography-font-size-header-large: 48px;
+  --typography-font-size-header-x-large: 96px;
+  --typography-font-size-header-2-x-large: 124px;
+  --typography-font-size-body-2-xs: 12px;
+  --typography-font-size-body-xs: 16px;
+  --typography-font-size-body-small: 20px;
+  --typography-font-size-body-medium: 24px;
+  --typography-font-size-body-large: 28px;
+  --typography-font-size-body-x-large: 40px;
+  --typography-font-size-body-2-x-large: 64px;
+  --typography-font-size-label-xs: 8px;
+  --typography-font-size-label-small: 12px;
+  --typography-font-size-label-medium: 16px;
+  --typography-font-size-label-large: 20px;
+  --content-spacing-sm: 16px;
+  --content-spacing-xs: 32px;
+  --content-spacing-md: 80px;
+  --content-spacing-lg: 152px;
+  --content-spacing-xl: 224px;
+  --image-radii: 0px;
+  --container-height-jumbo: 1861px;
+  --container-height-100vh: 1080px;
+  --page-margin: 112px;
+  --image-height: 847px;
+  --section-md: 176px;
+  --image-width: 1408px;
+  --double-up: 400px;
+  --caption-to-header: 16px;
+  --website-grid: 12px;
+  --breakpoint-1920: 1920px;
+  --grid-columns: 12px;
+  --grid-gutter: 32px;
+  --grid-column-1: 112px;
+  --grid-column-2: 275px;
+  --grid-column-3: 428px;
+  --grid-column-4: 581px;
+  --grid-column-5: 735px;
+  --grid-column-6: 888px;
+  --grid-column-7: 1041px;
+  --grid-column-8: 1195px;
+  --grid-column-9: 1348px;
+  --grid-column-10: 1505px;
+  --grid-column-11: 1655px;
+  --grid-column-12: 1808px;
+  --rails: 40px;
+  --grid-margin: 56px;
+}

@@ -1,0 +1,319 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-surface-default-rest: #f0edda; /** Default page and section background surface. */
+  --color-surface-default-hover: #e8e5ce; /** Default page and section background surface. */
+  --color-surface-default-pressed: #dedbca; /** Default page and section background surface. */
+  --color-surface-medium-rest: #e8e5ce; /** Slightly elevated surface, used for cards, panels, and containers on the default background. */
+  --color-surface-medium-hover: #dedbca; /** Slightly elevated surface, used for cards, panels, and containers on the default background. */
+  --color-surface-medium-pressed: #cccab9; /** Slightly elevated surface, used for cards, panels, and containers on the default background. */
+  --color-surface-strong-rest: #dedbca; /** High emphasis surface, used for nested containers or hover states on medium backgrounds. */
+  --color-surface-strong-hover: #cccab9; /** High emphasis surface, used for nested containers or hover states on medium backgrounds. */
+  --color-surface-strong-pressed: #bbb8a9; /** High emphasis surface, used for nested containers or hover states on medium backgrounds. */
+  --color-border-strong-rest: #88867b; /** High contrast border for dividers, table edges, and prominent outlines on canvas. */
+  --color-border-strong-hover: #78766d; /** High contrast border for dividers, table edges, and prominent outlines on canvas. */
+  --color-border-strong-pressed: #78766d; /** High contrast border for dividers, table edges, and prominent outlines on canvas. */
+  --color-border-strong-active: #595850; /** High contrast border for dividers, table edges, and prominent outlines on canvas. */
+  --color-border-strong-disabled: #cccab9; /** High contrast border for dividers, table edges, and prominent outlines on canvas. */
+  --color-border-subtle-rest: #cccab9; /** Medium weight border for card outlines, input fields, and section dividers on canvas. */
+  --color-border-subtle-hover: #cccab9; /** Medium weight border for card outlines, input fields, and section dividers on canvas. */
+  --color-border-subtle-pressed: #bbb8a9; /** Medium weight border for card outlines, input fields, and section dividers on canvas. */
+  --active: {color.neutral-tonal.600};
+  --color-border-subtle-disabled: #dedbca; /** Medium weight border for card outlines, input fields, and section dividers on canvas. */
+  --color-border-muted: #cccab9; /** Lightest border for subtle separators and de-emphasised outlines on canvas. */
+  --color-border-finesse: rgba(0, 0, 0, 0.08); /** Lightest border for subtle separators and de-emphasised outlines on canvas. */
+  --color-neutral-bg-default: #fcfcf8; /** Default brandless canvas for case study pages. */
+  --color-neutral-bg-medium: #f7f6f2; /** Elevated surface on neutral canvas. */
+  --color-neutral-bg-strong: #f1f1eb; /** High emphasis surface on neutral canvas. */
+  --color-inv-canvas-surface-default-rest: #080807; /** Default dark background surface for inverse sections and dark mode. */
+  --color-inv-canvas-surface-default-hover: #141412; /** Default dark background surface for inverse sections and dark mode. */
+  --pressed: {color.neutral-tonal.1400};
+  --color-inv-canvas-surface-medium-rest: #141412; /** Slightly lighter dark surface for cards and containers on the inverse background. */
+  --hover: {color.neutral-tonal.1400};
+  --color-inv-canvas-surface-medium-pressed: #2e2d29; /** Slightly lighter dark surface for cards and containers on the inverse background. */
+  --color-inv-canvas-surface-strong-rest: #2e2e2c; /** High emphasis dark surface, used for nested containers on the inverse background. */
+  --color-inv-canvas-surface-strong-hover: #4b4a48; /** High emphasis dark surface, used for nested containers on the inverse background. */
+  --color-inv-canvas-surface-strong-pressed: #5a5957; /** High emphasis dark surface, used for nested containers on the inverse background. */
+  --color-inv-canvas-border-strong-rest: #595850; /** High contrast border for dividers and prominent outlines on inverse canvas. */
+  --color-inv-canvas-border-strong-hover: #78766d; /** High contrast border for dividers and prominent outlines on inverse canvas. */
+  --color-inv-canvas-border-strong-pressed: #78766d; /** High contrast border for dividers and prominent outlines on inverse canvas. */
+  --color-inv-canvas-border-strong-active: #88867b; /** High contrast border for dividers and prominent outlines on inverse canvas. */
+  --color-inv-canvas-border-strong-disabled: #4a4943; /** High contrast border for dividers and prominent outlines on inverse canvas. */
+  --color-inv-canvas-border-subtle-rest: #4a4943; /** Medium weight border for card outlines and section dividers on inverse canvas. */
+  --color-inv-canvas-border-subtle-hover: #595850; /** Medium weight border for card outlines and section dividers on inverse canvas. */
+  --color-inv-canvas-border-subtle-pressed: #78766d; /** Medium weight border for card outlines and section dividers on inverse canvas. */
+  --color-inv-canvas-border-subtle-active: #88867b; /** Medium weight border for card outlines and section dividers on inverse canvas. */
+  --color-inv-canvas-border-subtle-disabled: #4a4943; /** Medium weight border for card outlines and section dividers on inverse canvas. */
+  --color-inv-canvas-border-muted: #2e2d29; /** Lightest border for subtle separators and de-emphasised outlines on inverse canvas. */
+  --color-inv-canvas-border-finesse: rgba(255, 255, 255, 0.1); /** Lightest border for subtle separators and de-emphasised outlines on inverse canvas. */
+  --color-on-inverse-fg-strong-default: #ffffff; /** Default text and icon colour on dark/inverse canvas surfaces. */
+  --color-on-inverse-fg-strong-hover: #f1f1eb; /** Default text and icon colour on dark/inverse canvas surfaces. */
+  --color-on-inverse-fg-strong-pressed: #e1e0d9; /** Default text and icon colour on dark/inverse canvas surfaces. */
+  --color-on-inverse-fg-strong-disabled: #2e2e2c; /** Default text and icon colour on dark/inverse canvas surfaces. */
+  --color-on-inverse-fg-muted-rest: rgba(255, 255, 255, 0.8); /** De-emphasised text and icons at 80% opacity for secondary content on inverse canvas. */
+  --color-on-inverse-fg-muted-hover: rgba(255, 255, 255, 0.6); /** De-emphasised text and icons at 80% opacity for secondary content on inverse canvas. */
+  --color-on-inverse-fg-muted-pressed: rgba(255, 255, 255, 0.4); /** De-emphasised text and icons at 80% opacity for secondary content on inverse canvas. */
+  --color-on-inverse-fg-muted-pressed-copy: rgba(255, 255, 255, 0.9); /** De-emphasised text and icons at 80% opacity for secondary content on inverse canvas. */
+  --color-on-inverse-fg-subtle-rest: rgba(255, 255, 255, 0.5); /** Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas. */
+  --color-on-inverse-fg-subtle-hover: rgba(255, 255, 255, 0.4); /** Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas. */
+  --color-on-inverse-fg-subtle-pressed: rgba(255, 255, 255, 0.3); /** Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas. */
+  --color-on-inverse-fg-subtle-pressed-copy: rgba(255, 255, 255, 0.9); /** Subtle text and icons at 50% opacity for placeholder or tertiary content on inverse canvas. */
+  --color-on-inverse-action-primary-fill-default: #ff6127; /** Primary CTA button background on dark surface. */
+  --color-on-inverse-action-primary-fill-hover: #ff855c; /** Primary CTA button background on hover, on dark surface. Steps lighter. */
+  --color-on-inverse-action-primary-fill-pressed: #ffa586; /** Primary CTA button background on press, on dark surface. */
+  --color-on-inverse-action-primary-fill-disabled: #571a04; /** Primary CTA button background when disabled, on dark surface. */
+  --color-on-inverse-action-primary-fg-default: #fcfcf8; /** Primary CTA button fg on dark surface. Always on brand fill. */
+  --color-on-inverse-action-primary-fg-hover: #fcfcf8; /** Primary CTA button fg on hover, on dark surface. */
+  --color-on-inverse-action-primary-fg-pressed: #fcfcf8; /** Primary CTA button fg on press, on dark surface. */
+  --color-on-inverse-action-primary-fg-disabled: #7e2a0a; /** Primary CTA button fg when disabled, on dark surface. */
+  --color-on-inverse-action-emphasis-fill-default: #fcfcf8; /** Solid button background on dark surface. White fill for contrast. */
+  --color-on-inverse-action-emphasis-fill-hover: #f1f1eb; /** Solid button background on hover, on dark surface. */
+  --color-on-inverse-action-emphasis-fill-pressed: #e1e0d9; /** Solid button background on press, on dark surface. */
+  --color-on-inverse-action-emphasis-fill-disabled: #4a4943; /** Solid button background when disabled, on dark surface. */
+  --color-on-inverse-action-emphasis-fg-default: #141414; /** Solid button background on dark surface. White fill for contrast. */
+  --color-on-inverse-action-emphasis-fg-disabled: #78766d; /** Solid button background when disabled, on dark surface. */
+  --color-on-inverse-action-subtle-fill-default: #2e2d29; /** Subtle button resting background on dark surface. */
+  --color-on-inverse-action-subtle-fill-hover: #4a4943; /** Subtle button background on hover, on dark surface. */
+  --color-on-inverse-action-subtle-fill-pressed: #595850; /** Subtle button background on press, on dark surface. */
+  --color-on-inverse-action-subtle-fill-disabled: #141412; /** Subtle button background when disabled, on dark surface. */
+  --color-on-inverse-action-ghost-fill-default: rgba(0, 0, 0, 0); /** Ghost button resting background on dark surface. Always transparent. */
+  --color-on-inverse-action-ghost-fill-hover: #2e2d29; /** Ghost button background on hover, on dark surface. */
+  --color-on-inverse-action-ghost-fill-pressed: #4a4943; /** Ghost button background on press, on dark surface. */
+  --color-on-inverse-action-ghost-fill-disabled: rgba(0, 0, 0, 0); /** Ghost button background when disabled, on dark surface. */
+  --color-on-inverse-action-ghost-fg-default: #fcfcf8; /** Ghost button fg on dark surface. Sits directly on dark canvas, near-white. */
+  --color-on-inverse-action-ghost-fg-hover: #f1f1eb; /** Ghost button fg on hover, on dark surface. */
+  --color-on-inverse-action-ghost-fg-pressed: #e1e0d9; /** Ghost button fg on press, on dark surface. */
+  --color-on-inverse-action-ghost-fg-disabled: #595850; /** Ghost button fg when disabled, on dark surface. */
+  --color-on-inverse-action-ghost-stroke-default: rgba(0, 0, 0, 0); /** Ghost button has no border, on dark surface. */
+  --color-on-inverse-action-ghost-stroke-hover: rgba(0, 0, 0, 0); /** Ghost button has no border on hover, on dark surface. */
+  --color-on-inverse-action-ghost-stroke-pressed: rgba(0, 0, 0, 0); /** Ghost button has no border on press, on dark surface. */
+  --color-on-inverse-action-ghost-stroke-disabled: rgba(0, 0, 0, 0); /** Ghost button has no border when disabled, on dark surface. */
+  --color-on-inverse-action-fg-strong-default: #fcfcf8; /** High emphasis text or icon on dark surface. Ghost button label, icon button, high emphasis link. */
+  --color-on-inverse-action-fg-strong-hover: #f1f1eb; /** High emphasis text or icon on hover, on dark surface. */
+  --color-on-inverse-action-fg-strong-pressed: #e1e0d9; /** High emphasis text or icon on press, on dark surface. */
+  --color-on-inverse-action-fg-strong-disabled: #595850; /** High emphasis text or icon when disabled, on dark surface. */
+  --color-on-inverse-action-fg-subtle-default: #cfcec8; /** Medium emphasis text or icon on dark surface. Nav links, tab labels. */
+  --color-on-inverse-action-fg-subtle-hover: #f1f1eb; /** Medium emphasis text or icon on hover, on dark surface. */
+  --color-on-inverse-action-fg-subtle-pressed: #fcfcf8; /** Medium emphasis text or icon on press, on dark surface. */
+  --color-on-inverse-action-fg-subtle-disabled: #595850; /** Medium emphasis text or icon when disabled, on dark surface. */
+  --color-on-inverse-action-fg-muted-default: #2e2e2c; /** Low emphasis text or icon on dark surface. Breadcrumbs, footer links, metadata. */
+  --color-on-inverse-action-fg-muted-hover: #4b4a48; /** Low emphasis text or icon on hover, on dark surface. */
+  --color-on-inverse-action-fg-muted-pressed: #5a5957; /** Low emphasis text or icon on press, on dark surface. */
+  --disabled: {color.neutral-tonal.1400};
+  --color-on-inverse-action-fg-brand-default: #ff855c; /** Branded text or icon on dark surface. Lightened for legibility. */
+  --color-on-inverse-action-fg-brand-hover: #ffa586; /** Branded text or icon on hover, on dark surface. */
+  --color-on-inverse-action-fg-brand-pressed: #ffc4ae; /** Branded text or icon on press, on dark surface. */
+  --color-on-inverse-action-fg-brand-disabled: #595850; /** Branded text or icon when disabled, on dark surface. */
+  --default: {color.neutral-tonal.1400};
+  --color-on-inverse-action-muted-fill-hover: #2e2d29; /** Ghost button background on hover, on dark surface. */
+  --color-on-inverse-action-muted-fill-pressed: #4a4943; /** Ghost button background on press, on dark surface. */
+  --color-on-inverse-action-muted-fill-disabled: #797975; /** Ghost button background when disabled, on dark surface. */
+  --color-on-inverse-action-muted-fg-default: #dedbca; /** Ghost button fg on dark surface. Sits directly on dark canvas, near-white. */
+  --color-on-inverse-action-muted-fg-hover: #cccab9; /** Ghost button fg on hover, on dark surface. */
+  --color-on-inverse-action-muted-fg-pressed: #e1e0d9; /** Ghost button fg on press, on dark surface. */
+  --color-on-inverse-action-muted-fg-disabled: #78766d; /** Ghost button fg when disabled, on dark surface. */
+  --color-on-inverse-action-muted-stroke-default: rgba(0, 0, 0, 0); /** Ghost button has no border, on dark surface. */
+  --color-on-inverse-action-muted-stroke-hover: rgba(0, 0, 0, 0); /** Ghost button has no border on hover, on dark surface. */
+  --color-on-inverse-action-muted-stroke-pressed: rgba(0, 0, 0, 0); /** Ghost button has no border on press, on dark surface. */
+  --color-on-inverse-action-muted-stroke-disabled: rgba(0, 0, 0, 0); /** Ghost button has no border when disabled, on dark surface. */
+  --color-accent-alpha-low: #ffa586; /** Low intensity primary brand accent, for tinted backgrounds and subtle brand moments. */
+  --color-accent-alpha-default: #d24e1d; /** Default primary brand accent colour for brand highlights and decorative elements. */
+  --color-accent-alpha-strong: #92330f; /** High intensity primary brand accent for bold brand moments and strong visual emphasis. */
+  --color-accent-alpha-fg-default: #ffffff; /** Default foreground on primary brand accent fill. */
+  --color-accent-alpha-fg-muted: #ff855c; /** De-emphasised foreground on primary brand accent, for secondary text or icons. */
+  --color-accent-alpha-fg-subtle: #ff6127; /** Subtle foreground on primary brand accent, for tertiary text or icons. */
+  --color-accent-beta-low: #98c7ec; /** Low intensity secondary brand accent, for tinted backgrounds and subtle brand moments. */
+  --color-accent-beta-default: #3e749c; /** Default secondary brand accent colour for brand highlights and decorative elements. */
+  --color-accent-beta-strong: #325b79; /** High intensity secondary brand accent for bold brand moments and strong visual emphasis. */
+  --color-accent-beta-fg-default: #5a5957; /** Default foreground on secondary brand accent fill. */
+  --color-accent-beta-fg-muted: #072437; /** De-emphasised foreground on secondary brand accent, for secondary text or icons. */
+  --color-accent-beta-fg-subtle: #072437; /** Subtle foreground on secondary brand accent, for tertiary text or icons. */
+  --color-action-primary-fill-default: #ff6127; /** Primary CTA button background. Branded, highest emphasis. */
+  --color-action-primary-fill-hover: #d24e1d; /** Primary CTA button background on hover. */
+  --color-action-primary-fill-pressed: #bc4518; /** Primary CTA button background on press. */
+  --color-action-primary-fill-disabled: #ffc4ae; /** Primary CTA button background when disabled. */
+  --color-action-primary-fg-default: #080808; /** Primary CTA button fg. Always on brand fill. */
+  --color-action-primary-fg-hover: #2e2e2c; /** Primary CTA button fg on hover. */
+  --color-action-primary-fg-pressed: #4b4a48; /** Primary CTA button fg on press. */
+  --color-action-primary-fg-disabled: #ffa586; /** Primary CTA button fg when disabled. */
+  --color-action-emphasis-fill-default: #2e2d29; /** Solid button background. High emphasis neutral fill. */
+  --color-action-emphasis-fill-hover: #4a4943; /** Solid button background on hover. */
+  --color-action-emphasis-fill-pressed: #595850; /** Solid button background on press. */
+  --color-action-emphasis-fill-disabled: #cfcec8; /** Solid button background when disabled. */
+  --color-action-emphasis-fg-default: #fcfcf8; /** Solid button fg. Always on dark fill, always near-white. */
+  --color-action-emphasis-fg-hover: #fcfcf8; /** Solid button fg on hover. */
+  --color-action-emphasis-fg-pressed: #fcfcf8; /** Solid button fg on press. */
+  --color-action-emphasis-fg-disabled: #acaba6; /** Solid button fg when disabled. */
+  --color-action-subtle-fill-default: #cccab9; /** Subtle button resting background. Light tinted fill to distinguish from ghost. */
+  --color-action-subtle-fill-hover: #bbb8a9; /** Subtle button background on hover. */
+  --color-action-subtle-fill-pressed: #aaa79a; /** Subtle button background on press. */
+  --color-action-subtle-fill-disabled: #f7f6f2; /** Subtle button background when disabled. */
+  --color-action-ghost-fill-default: rgba(0, 0, 0, 0); /** Ghost button resting background. Always transparent. */
+  --color-action-ghost-fill-hover: #f7f6f2; /** Ghost button background on hover. Barely-there fill. */
+  --color-action-ghost-fill-pressed: #f1f1eb; /** Ghost button background on press. */
+  --color-action-ghost-fill-disabled: rgba(0, 0, 0, 0); /** Ghost button background when disabled. */
+  --color-action-muted-fill-default: #dedbca; /** Subtle button resting background. Light tinted fill to distinguish from ghost. */
+  --color-action-muted-fill-hover: #cccab9; /** Subtle button background on hover. */
+  --color-action-muted-fill-pressed: #bbb8a9; /** Subtle button background on press. */
+  --color-action-muted-fill-disabled: #f7f6f2; /** Subtle button background when disabled. */
+  --color-fg-strong-default: #080807; /** High emphasis text or icon. Ghost button label, icon button, high emphasis link. */
+  --color-fg-strong-hover: #2e2d29; /** High emphasis text or icon on hover. */
+  --color-fg-strong-pressed: #4a4943; /** High emphasis text or icon on press. */
+  --color-fg-strong-disabled: #acaba6; /** High emphasis text or icon when disabled. */
+  --color-fg-subtle-default: #595850; /** Medium emphasis text or icon. Nav links, tab labels, supporting actions. */
+  --color-fg-subtle-hover: #2e2d29; /** Medium emphasis text or icon on hover. */
+  --color-fg-subtle-pressed: #080807; /** Medium emphasis text or icon on press. */
+  --color-fg-subtle-disabled: #acaba6; /** Medium emphasis text or icon when disabled. */
+  --color-fg-muted-default: #88867b; /** Low emphasis text or icon. Breadcrumbs, footer links, metadata, de-emphasised actions. */
+  --color-fg-muted-hover: #595850; /** Low emphasis text or icon on hover. */
+  --color-fg-muted-pressed: #4a4943; /** Low emphasis text or icon on press. */
+  --color-fg-muted-disabled: #acaba6; /** Low emphasis text or icon when disabled. */
+  --color-fg-brand-default: #ff6127; /** Branded text or icon. Inline text links, branded interactive elements. */
+  --color-fg-brand-hover: #d24e1d; /** Branded text or icon on hover. */
+  --color-fg-brand-pressed: #bc4518; /** Branded text or icon on press. */
+  --color-fg-brand-disabled: #acaba6; /** Branded text or icon when disabled. */
+  --color-gradient-linear-primary-to-dark-burst: linear-gradient(135deg, #ff6127 0%, #220500 100%);
+  --color-gradient-linear-primary-to-dark-medium: linear-gradient(135deg, #ff6127 0%, #ff6127 40%, #220500 100%);
+  --color-gradient-linear-primary-to-dark-full: linear-gradient(135deg, #ff6127 0%, #bc4518 50%, #220500 100%);
+  --color-gradient-linear-primary-to-light-burst: linear-gradient(135deg, #ff6127 0%, #fff0e9 100%);
+  --color-gradient-linear-primary-to-light-medium: linear-gradient(135deg, #ff6127 0%, #ff6127 40%, #fff0e9 100%);
+  --color-gradient-linear-primary-to-light-full: linear-gradient(135deg, #ff6127 0%, #ffc4ae 50%, #fff0e9 100%);
+  --color-gradient-linear-primary-to-neutral-burst: linear-gradient(135deg, #ff6127 0%, #080807 100%);
+  --color-gradient-linear-primary-to-neutral-medium: linear-gradient(135deg, #ff6127 0%, #ff6127 40%, #080807 100%);
+  --color-gradient-linear-primary-to-neutral-full: linear-gradient(135deg, #ff6127 0%, #595850 50%, #080807 100%);
+  --color-gradient-linear-secondary-to-dark-burst: linear-gradient(135deg, #40a5e8 0%, #00040e 100%);
+  --color-gradient-linear-secondary-to-dark-medium: linear-gradient(135deg, #40a5e8 0%, #40a5e8 40%, #00040e 100%);
+  --color-gradient-linear-secondary-to-dark-full: linear-gradient(135deg, #40a5e8 0%, #325b79 50%, #00040e 100%);
+  --color-gradient-linear-secondary-to-light-burst: linear-gradient(135deg, #40a5e8 0%, #f0f6fb 100%);
+  --color-gradient-linear-secondary-to-light-medium: linear-gradient(135deg, #40a5e8 0%, #40a5e8 40%, #f0f6fb 100%);
+  --color-gradient-linear-secondary-to-light-full: linear-gradient(135deg, #40a5e8 0%, #c5dbec 50%, #f0f6fb 100%);
+  --color-gradient-linear-neutral-dark-to-light-burst: linear-gradient(135deg, #080807 0%, #f0edda 100%);
+  --color-gradient-linear-neutral-dark-to-light-medium: linear-gradient(135deg, #080807 0%, #080807 40%, #f0edda 100%);
+  --color-gradient-linear-neutral-dark-to-light-full: linear-gradient(135deg, #080807 0%, #595850 50%, #f0edda 100%);
+  --color-gradient-linear-primary-to-secondary-burst: linear-gradient(135deg, #ff6127 0%, #40a5e8 100%);
+  --color-gradient-linear-primary-to-secondary-medium: linear-gradient(135deg, #ff6127 0%, #ff6127 40%, #40a5e8 100%);
+  --color-gradient-linear-primary-to-secondary-full: linear-gradient(135deg, #ff6127 0%, #9B3D99 50%, #40a5e8 100%);
+  --color-gradient-radial-primary-burst-center-dark: radial-gradient(ellipse at center, #ff6127 0%, transparent 60%), #220500;
+  --color-gradient-radial-primary-burst-center-light: radial-gradient(ellipse at center, #ff6127 0%, #ffc4ae 50%, #fff0e9 100%);
+  --color-gradient-radial-primary-burst-corner-dark: radial-gradient(ellipse at 20% 80%, #ff6127 0%, transparent 60%), #080807;
+  --color-gradient-radial-primary-burst-corner-light: radial-gradient(ellipse at 20% 80%, #ff6127 0%, transparent 60%), #fff0e9;
+  --color-gradient-radial-secondary-burst-center-dark: radial-gradient(ellipse at center, #40a5e8 0%, transparent 60%), #00040e;
+  --color-gradient-radial-secondary-burst-center-light: radial-gradient(ellipse at center, #40a5e8 0%, #c5dbec 50%, #f0f6fb 100%);
+  --color-gradient-radial-secondary-burst-corner-dark: radial-gradient(ellipse at 20% 80%, #40a5e8 0%, transparent 60%), #00040e;
+  --color-gradient-radial-secondary-burst-corner-light: radial-gradient(ellipse at 20% 80%, #40a5e8 0%, transparent 60%), #f0f6fb;
+  --color-gradient-radial-primary-secondary-dual-dark: radial-gradient(ellipse at center, #ff6127 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, #40a5e8 0%, transparent 50%), #080807;
+  --color-gradient-radial-primary-secondary-dual-light: radial-gradient(ellipse at 20% 20%, #ff6127 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, #40a5e8 0%, transparent 50%), #f0edda;
+  --color-gradient-radial-neutral-burst-center-dark: radial-gradient(ellipse at center, #f0edda 0%, transparent 60%), #080807;
+  --color-gradient-radial-neutral-burst-center-light: radial-gradient(ellipse at center, #080807 0%, transparent 60%), #f0edda;
+  --color-non-adaptive-white-fg-default: #ffffff;
+  --color-non-adaptive-white-fg-sublte: rgba(255, 255, 255, 0.7);
+  --color-non-adaptive-white-fg-muted: rgba(255, 255, 255, 0.4);
+  --color-non-adaptive-white-scrim: rgba(255, 255, 255, 0.4);
+  --color-non-adaptive-black-fg-default: #000000;
+  --color-non-adaptive-black-fg-sublte: rgba(0, 0, 0, 0.7);
+  --color-non-adaptive-black-fg-muted: rgba(0, 0, 0, 0.4);
+  --color-non-adaptive-black-scrim: rgba(0, 0, 0, 0.4);
+  --fontSize: {typography.fontSize.Display.2X-Large};
+  --typography-display-2-x-large-font-family: 'PP Monument Wide';
+  --typography-display-2-x-large-font-weight: 900;
+  --typography-display-2-x-large-line-height: 0.78;
+  --typography-display-2-x-large-text-case: uppercase;
+  --typography-display-2-x-large-letter-spacing: -0.06em;
+  --fontSize: {typography.fontSize.Display.X-Large};
+  --typography-display-x-large-font-family: 'PP Monument Wide';
+  --typography-display-x-large-font-weight: 900;
+  --typography-display-x-large-line-height: 1;
+  --typography-display-x-large-text-case: uppercase;
+  --fontSize: {typography.fontSize.Display.Large};
+  --typography-display-large-font-family: 'PP Monument Wide';
+  --typography-display-large-font-weight: 900;
+  --typography-display-large-line-height: 1;
+  --typography-display-large-text-case: uppercase;
+  --fontSize: {typography.fontSize.Display.Medium};
+  --typography-display-medium-font-family: 'PP Monument Wide';
+  --typography-display-medium-font-weight: 900;
+  --typography-display-medium-line-height: 0.78;
+  --typography-display-medium-text-case: uppercase;
+  --fontSize: {typography.fontSize.Display.Small};
+  --typography-display-small-font-family: 'PP Monument Wide';
+  --typography-display-small-font-weight: 900;
+  --typography-display-small-line-height: 1;
+  --typography-display-small-text-case: uppercase;
+  --fontSize: {typography.fontSize.Display.XS};
+  --typography-display-xs-font-family: 'PP Monument Wide';
+  --typography-display-xs-font-weight: 900;
+  --typography-display-xs-line-height: 1;
+  --typography-display-xs-text-case: uppercase;
+  --fontSize: {typography.fontSize.Header.X-Large};
+  --typography-header-x-large-font-family: 'Neue Montreal';
+  --typography-header-x-large-font-weight: 500;
+  --typography-header-x-large-line-height: 1;
+  --fontSize: {typography.fontSize.Header.Large};
+  --typography-header-large-font-family: 'Neue Montreal';
+  --typography-header-large-font-weight: 500;
+  --typography-header-large-line-height: 1;
+  --fontSize: {typography.fontSize.Header.Medium};
+  --typography-header-medium-font-family: 'Neue Montreal';
+  --typography-header-medium-font-weight: 500;
+  --typography-header-medium-line-height: 1;
+  --fontSize: {typography.fontSize.Header.Small};
+  --typography-header-small-font-family: 'Neue Montreal';
+  --typography-header-small-font-weight: 500;
+  --typography-header-small-line-height: 1;
+  --fontSize: {typography.fontSize.Header.XS};
+  --typography-header-xs-font-family: 'Neue Montreal';
+  --typography-header-xs-font-weight: 500;
+  --typography-header-xs-line-height: 1;
+  --fontSize: {typography.fontSize.Body.2X-Large};
+  --typography-body-2-x-large-font-family: 'Neue Montreal';
+  --typography-body-2-x-large-font-weight: 400;
+  --typography-body-2-x-large-line-height: 1.15;
+  --fontSize: {typography.fontSize.Body.X-Large};
+  --typography-body-x-large-font-family: 'Neue Montreal';
+  --typography-body-x-large-font-weight: 400;
+  --typography-body-x-large-line-height: 1.15;
+  --fontSize: {typography.fontSize.Body.Large};
+  --typography-body-large-font-family: 'Neue Montreal';
+  --typography-body-large-font-weight: 400;
+  --typography-body-large-line-height: 1.35;
+  --typography-body-large-paragraph-spacing: 24px;
+  --fontSize: {typography.fontSize.Body.Medium};
+  --typography-body-medium-font-family: 'Neue Montreal';
+  --typography-body-medium-font-weight: 400;
+  --typography-body-medium-line-height: 1.15;
+  --fontSize: {typography.fontSize.Body.Small};
+  --typography-body-small-font-family: 'Neue Montreal';
+  --typography-body-small-font-weight: 400;
+  --typography-body-small-line-height: 1.2;
+  --fontSize: {typography.fontSize.Body.XS};
+  --typography-body-xs-font-family: 'Neue Montreal';
+  --typography-body-xs-font-weight: 400;
+  --typography-body-xs-line-height: 1.2;
+  --fontSize: {typography.fontSize.Body.2XS};
+  --typography-body-2-xs-font-family: 'Neue Montreal';
+  --typography-body-2-xs-font-weight: 400;
+  --typography-body-2-xs-line-height: 1.2;
+  --fontSize: {typography.fontSize.Label.XS};
+  --typography-label-xs-font-family: Inter;
+  --typography-label-xs-font-weight: 400;
+  --typography-label-xs-line-height: 1;
+  --typography-label-xs-text-case: Uppercase;
+  --typography-label-xs-letter-spacing: 0.1em;
+  --fontSize: {typography.fontSize.Label.Small};
+  --typography-label-small-font-family: Inter;
+  --typography-label-small-font-weight: 400;
+  --typography-label-small-line-height: 1;
+  --typography-label-small-text-case: Uppercase;
+  --fontSize: {typography.fontSize.Label.Medium};
+  --typography-label-medium-font-family: Inter;
+  --typography-label-medium-font-weight: 400;
+  --typography-label-medium-line-height: 1;
+  --typography-label-medium-text-case: Uppercase;
+  --fontSize: {typography.fontSize.Label.Large};
+  --typography-label-large-font-family: Inter;
+  --typography-label-large-font-weight: 400;
+  --typography-label-large-line-height: 1;
+  --typography-label-large-text-case: Uppercase;
+}

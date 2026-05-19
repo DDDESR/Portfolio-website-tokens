@@ -1,0 +1,36 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --content-spacing-xl: 100px;
+  --content-spacing-md: 32px;
+  --content-spacing-sm: 16px;
+  --content-spacing-lg: 100px;
+  --image-radii: 0px;
+  --container-height-jumbo: 1200px;
+  --container-height-100vh: 900px;
+  --page-margin: 64px;
+  --image-height: 880px;
+  --section-md: 80px;
+  --image-width: 1408px;
+  --double-up: 400px;
+  --caption-to-header: 48px;
+  --website-grid: 3px;
+  --breakpoint-1920: 1280px;
+  --grid-columns: 8px;
+  --grid-gutter: 24px;
+  --grid-column-1: 417px;
+  --grid-column-2: 417px;
+  --grid-column-3: 417px;
+  --grid-column-4: 564px;
+  --grid-column-5: 564px;
+  --grid-column-6: 564px;
+  --grid-column-7: 858px;
+  --grid-column-8: 858px;
+  --grid-column-9: 858px;
+  --grid-column-10: 1152px;
+  --grid-column-11: 1152px;
+  --grid-column-12: 1152px;
+  --rails: 40px;
+}

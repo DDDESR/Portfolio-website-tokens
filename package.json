@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-website-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "build": "node sd.config.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDDESR/Portfolio-website-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DDDESR/Portfolio-website-tokens/issues"
+  },
+  "homepage": "https://github.com/DDDESR/Portfolio-website-tokens#readme",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.3",
+    "style-dictionary": "^5.4.1"
+  }
+}

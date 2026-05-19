@@ -1,0 +1,61 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --typography-font-size-display-xs: 32px;
+  --typography-font-size-display-small: 64px;
+  --typography-font-size-display-medium: 32px;
+  --typography-font-size-display-large: 112px;
+  --typography-font-size-display-x-large: 48px;
+  --typography-font-size-display-2-x-large: 48px;
+  --typography-font-size-header-xs: 20px;
+  --typography-font-size-header-small: 24px;
+  --typography-font-size-header-medium: 24px;
+  --typography-font-size-header-large: 32px;
+  --typography-font-size-header-x-large: 96px;
+  --typography-font-size-header-2-x-large: 124px;
+  --typography-font-size-body-2-xs: 12px;
+  --typography-font-size-body-xs: 16px;
+  --typography-font-size-body-small: 12px;
+  --typography-font-size-body-medium: 24px;
+  --typography-font-size-body-large: 20px;
+  --typography-font-size-body-x-large: 24px;
+  --typography-font-size-body-2-x-large: 28px;
+  --typography-font-size-label-xs: 8px;
+  --typography-font-size-label-small: 12px;
+  --typography-font-size-label-medium: 16px;
+  --typography-font-size-label-large: 20px;
+  --content-spacing-xl: 80px;
+  --content-spacing-md: 32px;
+  --content-spacing-sm: 16px;
+  --content-spacing-xs: 16px;
+  --content-spacing-lg: 80px;
+  --image-radii: 0px;
+  --container-height-jumbo: 950px;
+  --container-height-100vh: 812px;
+  --page-margin: 16px;
+  --image-height: 880px;
+  --section-md: 80px;
+  --image-width: 1408px;
+  --double-up: 400px;
+  --caption-to-header: 8px;
+  --website-grid: 4px;
+  --breakpoint-1920: 375px;
+  --grid-columns: 4px;
+  --grid-gutter: 16px;
+  --grid-column-1: 343px;
+  --grid-column-2: 343px;
+  --grid-column-3: 343px;
+  --grid-column-4: 343px;
+  --grid-column-5: 343px;
+  --grid-column-6: 343px;
+  --grid-column-7: 343px;
+  --grid-column-8: 343px;
+  --grid-column-9: 343px;
+  --grid-column-10: 343px;
+  --grid-column-11: 343px;
+  --grid-column-12: 343px;
+  --rails: 16px;
+  --grid-margin: 16px;
+}
