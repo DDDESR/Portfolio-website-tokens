@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Core / Brand / Alpha",
-    "Core / Brand / Beta",
-    "Core / Brand / Beta (1200)",
+    "Core/Brand/Alpha",
+    "Core/Brand/Beta",
+    "Core/Brand/Beta-(1200)",
     "System",
     "System (1200)",
     "System (Aifie)",
