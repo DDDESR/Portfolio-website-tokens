@@ -81,7 +81,7 @@
   },
   "Grid": {
     "Columns": {
-      "value": "{dimension.scale.12}",
+      "value": "12px",
       "type": "dimension"
     },
     "Gutter": {
@@ -90,7 +90,7 @@
     },
     "Column": {
       "1": {
-        "value": "{dimension.scale.112}",
+        "value": "112px",
         "type": "dimension"
       },
       "2": {
