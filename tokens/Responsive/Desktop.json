@@ -70,8 +70,12 @@
     "type": "dimension"
   },
   "Breakpoint": {
-    "1920": {
+    "width": {
       "value": "1920px",
+      "type": "dimension"
+    },
+    "height": {
+      "value": "1080px",
       "type": "dimension"
     }
   },

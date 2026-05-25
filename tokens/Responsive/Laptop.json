@@ -1,51 +1,55 @@
 {
   "Content": {
     "spacing": {
-      "xl": {
-        "value": "100px",
+      "sm": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension"
+      },
+      "xs": {
+        "value": "{dimension.scale.32}",
         "type": "dimension"
       },
       "md": {
-        "value": "32px",
-        "type": "dimension"
-      },
-      "sm": {
-        "value": "16px",
+        "value": "{dimension.scale.80}",
         "type": "dimension"
       },
       "lg": {
-        "value": "100px",
+        "value": "152px",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{dimension.scale.224}",
         "type": "dimension"
       }
     }
   },
   "Image-Radii": {
-    "value": "0px",
+    "value": "{dimension.radius.0}",
     "type": "dimension"
   },
   "Container": {
     "Height": {
       "Jumbo": {
-        "value": "1200px",
+        "value": "1861px",
         "type": "dimension"
       },
       "100vh": {
-        "value": "900px",
+        "value": "1080px",
         "type": "dimension"
       }
     }
   },
   "Page Margin": {
-    "value": "64px",
+    "value": "{dimension.scale.112}",
     "type": "dimension"
   },
   "Image-height": {
-    "value": "880px",
+    "value": "847px",
     "type": "dimension"
   },
   "Section": {
     "md": {
-      "value": "80px",
+      "value": "{dimension.scale.176}",
       "type": "dimension"
     }
   },
@@ -58,81 +62,193 @@
     "type": "dimension"
   },
   "Caption-to-header": {
-    "value": "48px",
+    "value": "{dimension.scale.16}",
     "type": "dimension"
   },
   "Website-Grid": {
-    "value": "3px",
+    "value": "{dimension.scale.12}",
     "type": "dimension"
   },
   "Breakpoint": {
-    "1920": {
-      "value": "1280px",
+    "width": {
+      "value": "1440px",
+      "type": "dimension"
+    },
+    "height": {
+      "value": "800px",
       "type": "dimension"
     }
   },
   "Grid": {
     "Columns": {
-      "value": "8px",
+      "value": "{dimension.scale.12}",
       "type": "dimension"
     },
     "Gutter": {
-      "value": "24px",
+      "value": "{dimension.scale.32}",
       "type": "dimension"
     },
     "Column": {
       "1": {
-        "value": "417px",
+        "value": "{dimension.scale.112}",
         "type": "dimension"
       },
       "2": {
-        "value": "417px",
+        "value": "275px",
         "type": "dimension"
       },
       "3": {
-        "value": "417px",
+        "value": "428px",
         "type": "dimension"
       },
       "4": {
-        "value": "564px",
+        "value": "581px",
         "type": "dimension"
       },
       "5": {
-        "value": "564px",
+        "value": "735px",
         "type": "dimension"
       },
       "6": {
-        "value": "564px",
+        "value": "888px",
         "type": "dimension"
       },
       "7": {
-        "value": "858px",
+        "value": "1041px",
         "type": "dimension"
       },
       "8": {
-        "value": "858px",
+        "value": "1195px",
         "type": "dimension"
       },
       "9": {
-        "value": "858px",
+        "value": "1348px",
         "type": "dimension"
       },
       "10": {
-        "value": "1152px",
+        "value": "1505px",
         "type": "dimension"
       },
       "11": {
-        "value": "1152px",
+        "value": "1655px",
         "type": "dimension"
       },
       "12": {
-        "value": "1152px",
+        "value": "1808px",
         "type": "dimension"
       }
     }
   },
   "Rails": {
-    "value": "40px",
+    "value": "{dimension.scale.40}",
     "type": "dimension"
+  },
+  "Grid-margin": {
+    "value": "{dimension.scale.56}",
+    "type": "dimension"
+  },
+  "typography": {
+    "fontSize": {
+      "Display": {
+        "XS": {
+          "value": "40px",
+          "type": "fontSizes"
+        },
+        "Small": {
+          "value": "64px",
+          "type": "fontSizes"
+        },
+        "Medium": {
+          "value": "{typography.fontSize.96}",
+          "type": "fontSizes"
+        },
+        "Large": {
+          "value": "{typography.fontSize.112}",
+          "type": "fontSizes"
+        },
+        "X-Large": {
+          "value": "{typography.fontSize.124}",
+          "type": "fontSizes"
+        },
+        "2X-Large": {
+          "value": "{typography.fontSize.154}",
+          "type": "fontSizes"
+        }
+      },
+      "Header": {
+        "XS": {
+          "value": "20px",
+          "type": "fontSizes"
+        },
+        "Small": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "Medium": {
+          "value": "{typography.fontSize.40}",
+          "type": "fontSizes"
+        },
+        "Large": {
+          "value": "{typography.fontSize.48}",
+          "type": "fontSizes"
+        },
+        "X-Large": {
+          "value": "{typography.fontSize.96}",
+          "type": "fontSizes"
+        },
+        "2X-Large": {
+          "value": "{typography.fontSize.124}",
+          "type": "fontSizes"
+        }
+      },
+      "Body": {
+        "2XS": {
+          "value": "{typography.fontSize.12}",
+          "type": "fontSizes"
+        },
+        "XS": {
+          "value": "{typography.fontSize.16}",
+          "type": "fontSizes"
+        },
+        "Small": {
+          "value": "{typography.fontSize.20}",
+          "type": "fontSizes"
+        },
+        "Medium": {
+          "value": "{typography.fontSize.24}",
+          "type": "fontSizes"
+        },
+        "Large": {
+          "value": "28px",
+          "type": "fontSizes"
+        },
+        "X-Large": {
+          "value": "{typography.fontSize.40}",
+          "type": "fontSizes"
+        },
+        "2X-Large": {
+          "value": "64px",
+          "type": "fontSizes"
+        }
+      },
+      "Label": {
+        "XS": {
+          "value": "8px",
+          "type": "fontSizes"
+        },
+        "Small": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "Medium": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "Large": {
+          "value": "20px",
+          "type": "fontSizes"
+        }
+      }
+    }
   }
 }
