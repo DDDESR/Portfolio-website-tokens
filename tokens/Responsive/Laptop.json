@@ -10,7 +10,7 @@
         "type": "dimension"
       },
       "md": {
-        "value": "{dimension.scale.80}",
+        "value": "{dimension.scale.40}",
         "type": "dimension"
       },
       "lg": {
@@ -81,7 +81,7 @@
   },
   "Grid": {
     "Columns": {
-      "value": "8px",
+      "value": "6px",
       "type": "dimension"
     },
     "Gutter": {
@@ -90,11 +90,11 @@
     },
     "Column": {
       "1": {
-        "value": "112px",
+        "value": "437px",
         "type": "dimension"
       },
       "2": {
-        "value": "275px",
+        "value": "437px",
         "type": "dimension"
       },
       "3": {
@@ -151,7 +151,7 @@
     "fontSize": {
       "Display": {
         "XS": {
-          "value": "40px",
+          "value": "24px",
           "type": "fontSizes"
         },
         "Small": {
@@ -167,7 +167,7 @@
           "type": "fontSizes"
         },
         "X-Large": {
-          "value": "{typography.fontSize.124}",
+          "value": "{typography.fontSize.80}",
           "type": "fontSizes"
         },
         "2X-Large": {
@@ -193,7 +193,7 @@
           "type": "fontSizes"
         },
         "X-Large": {
-          "value": "{typography.fontSize.96}",
+          "value": "{typography.fontSize.72}",
           "type": "fontSizes"
         },
         "2X-Large": {
@@ -207,15 +207,15 @@
           "type": "fontSizes"
         },
         "XS": {
-          "value": "{typography.fontSize.16}",
+          "value": "{typography.fontSize.12}",
           "type": "fontSizes"
         },
         "Small": {
-          "value": "{typography.fontSize.20}",
+          "value": "{typography.fontSize.16}",
           "type": "fontSizes"
         },
         "Medium": {
-          "value": "{typography.fontSize.24}",
+          "value": "{typography.fontSize.20}",
           "type": "fontSizes"
         },
         "Large": {
@@ -223,7 +223,7 @@
           "type": "fontSizes"
         },
         "X-Large": {
-          "value": "{typography.fontSize.40}",
+          "value": "{typography.fontSize.28}",
           "type": "fontSizes"
         },
         "2X-Large": {
