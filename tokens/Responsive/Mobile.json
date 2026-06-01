@@ -1,30 +1,30 @@
 {
   "Content": {
     "spacing": {
-      "xl": {
-        "value": "80px",
-        "type": "dimension"
-      },
-      "md": {
-        "value": "32px",
-        "type": "dimension"
-      },
       "sm": {
-        "value": "16px",
+        "value": "{dimension.scale.16}",
         "type": "dimension"
       },
       "xs": {
-        "value": "16px",
+        "value": "{dimension.scale.16}",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{dimension.scale.32}",
         "type": "dimension"
       },
       "lg": {
-        "value": "80px",
+        "value": "{dimension.scale.80}",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{dimension.scale.80}",
         "type": "dimension"
       }
     }
   },
   "Image-Radii": {
-    "value": "0px",
+    "value": "{dimension.radius.0}",
     "type": "dimension"
   },
   "Container": {
@@ -40,7 +40,7 @@
     }
   },
   "Page Margin": {
-    "value": "16px",
+    "value": "{dimension.scale.16}",
     "type": "dimension"
   },
   "Image-height": {
@@ -49,7 +49,7 @@
   },
   "Section": {
     "md": {
-      "value": "80px",
+      "value": "{dimension.scale.80}",
       "type": "dimension"
     }
   },
@@ -62,11 +62,11 @@
     "type": "dimension"
   },
   "Caption-to-header": {
-    "value": "8px",
+    "value": "{dimension.scale.8}",
     "type": "dimension"
   },
   "Website-Grid": {
-    "value": "4px",
+    "value": "{dimension.scale.4}",
     "type": "dimension"
   },
   "Breakpoint": {
@@ -85,7 +85,7 @@
       "type": "dimension"
     },
     "Gutter": {
-      "value": "16px",
+      "value": "{dimension.scale.16}",
       "type": "dimension"
     },
     "Column": {
@@ -140,18 +140,168 @@
     }
   },
   "Rails": {
-    "value": "16px",
+    "value": "{dimension.scale.16}",
     "type": "dimension"
   },
   "Grid-margin": {
     "value": "{dimension.scale.16}",
     "type": "dimension"
   },
+  "spacing": {
+    "page-margin": {
+      "value": "{dimension.scale.16}",
+      "type": "dimension",
+      "description": "Horizontal rail separating viewport edge from content."
+    },
+    "inset": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Micro padding. Tight badges, icon-only buttons."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Small padding. Chips, compact tags, small inputs."
+      },
+      "sm": {
+        "value": "{dimension.scale.12}",
+        "type": "dimension",
+        "description": "Default small component padding. Secondary buttons, pills."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default component padding. Primary buttons, inputs, cards."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable padding. Cards, modals, panels."
+      },
+      "xl": {
+        "value": "{dimension.scale.32}",
+        "type": "dimension",
+        "description": "Generous padding. Feature cards, callout blocks."
+      },
+      "2xl": {
+        "value": "{dimension.scale.48}",
+        "type": "dimension",
+        "description": "Spacious padding. Hero cards, large modal interiors."
+      }
+    },
+    "stack": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Tightest vertical rhythm. Caption below label."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Tight vertical rhythm. Icon + label stacks, compact metadata."
+      },
+      "sm": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Close vertical rhythm. Caption to header. Matches --caption-to-header."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default vertical rhythm. Between paragraphs, form field gaps."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable vertical rhythm. Between heading and body copy."
+      },
+      "xl": {
+        "value": "{dimension.scale.40}",
+        "type": "dimension",
+        "description": "Open vertical rhythm. Between major content blocks within a section."
+      },
+      "2xl": {
+        "value": "{dimension.scale.64}",
+        "type": "dimension",
+        "description": "Generous vertical rhythm. Between component groups, case study layout blocks."
+      }
+    },
+    "inline": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Tightest horizontal rhythm. Icon nudge, tight label pairs."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Tight horizontal rhythm. Icon + label, breadcrumb separators."
+      },
+      "sm": {
+        "value": "{dimension.scale.12}",
+        "type": "dimension",
+        "description": "Close horizontal rhythm. Button groups, chip rows."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default horizontal rhythm. Nav item gaps, tag groups."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable horizontal rhythm. Spaced nav, action rows."
+      },
+      "xl": {
+        "value": "{dimension.scale.40}",
+        "type": "dimension",
+        "description": "Open horizontal rhythm. Between grouped elements in a toolbar."
+      }
+    },
+    "layout": {
+      "flush": {
+        "value": "{dimension.scale.0}",
+        "type": "dimension",
+        "description": "No section padding. Full-bleed media sections."
+      },
+      "xs": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Minimal section padding."
+      },
+      "sm": {
+        "value": "{dimension.scale.32}",
+        "type": "dimension",
+        "description": "Compact section padding. Matches --content-spacing-md."
+      },
+      "md": {
+        "value": "{dimension.scale.40}",
+        "type": "dimension",
+        "description": "Standard section padding. Matches --section-md."
+      },
+      "lg": {
+        "value": "{dimension.scale.64}",
+        "type": "dimension",
+        "description": "Generous section padding."
+      },
+      "xl": {
+        "value": "{dimension.scale.80}",
+        "type": "dimension",
+        "description": "Extra generous padding. Matches --content-spacing-lg + --content-spacing-xl."
+      },
+      "2xl": {
+        "value": "{dimension.scale.80}",
+        "type": "dimension",
+        "description": "Maximum section padding. Matches --content-spacing-xl."
+      }
+    }
+  },
   "typography": {
     "fontSize": {
       "Display": {
         "XS": {
-          "value": "{typography.fontSize.32}",
+          "value": "32px",
           "type": "fontSizes"
         },
         "Small": {
@@ -159,7 +309,7 @@
           "type": "fontSizes"
         },
         "Medium": {
-          "value": "{typography.fontSize.32}",
+          "value": "32px",
           "type": "fontSizes"
         },
         "Large": {
@@ -167,11 +317,11 @@
           "type": "fontSizes"
         },
         "X-Large": {
-          "value": "{typography.fontSize.48}",
+          "value": "48px",
           "type": "fontSizes"
         },
         "2X-Large": {
-          "value": "{typography.fontSize.48}",
+          "value": "48px",
           "type": "fontSizes"
         }
       },
@@ -185,11 +335,11 @@
           "type": "fontSizes"
         },
         "Medium": {
-          "value": "{typography.fontSize.24}",
+          "value": "24px",
           "type": "fontSizes"
         },
         "Large": {
-          "value": "{typography.fontSize.32}",
+          "value": "32px",
           "type": "fontSizes"
         },
         "X-Large": {
@@ -219,15 +369,15 @@
           "type": "fontSizes"
         },
         "Large": {
-          "value": "{typography.fontSize.20}",
+          "value": "20px",
           "type": "fontSizes"
         },
         "X-Large": {
-          "value": "{typography.fontSize.24}",
+          "value": "24px",
           "type": "fontSizes"
         },
         "2X-Large": {
-          "value": "{typography.fontSize.28}",
+          "value": "28px",
           "type": "fontSizes"
         }
       },
