@@ -144,7 +144,7 @@
     "type": "dimension"
   },
   "Grid-margin": {
-    "value": "{dimension.scale.56}",
+    "value": "{dimension.scale.40}",
     "type": "dimension"
   },
   "spacing": {
@@ -185,7 +185,7 @@
         "description": "Generous padding. Feature cards, callout blocks."
       },
       "2xl": {
-        "value": "{dimension.scale.48}",
+        "value": "{dimension.scale.40}",
         "type": "dimension",
         "description": "Spacious padding. Hero cards, large modal interiors."
       }
