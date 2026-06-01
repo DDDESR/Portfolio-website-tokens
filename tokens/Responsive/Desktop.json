@@ -202,7 +202,7 @@
         "description": "Tight vertical rhythm. Icon + label stacks, compact metadata."
       },
       "sm": {
-        "value": "{dimension.scale.16}",
+        "value": "{dimension.scale.12}",
         "type": "dimension",
         "description": "Close vertical rhythm. Caption to header. Matches --caption-to-header."
       },
@@ -222,7 +222,7 @@
         "description": "Open vertical rhythm. Between major content blocks within a section."
       },
       "2xl": {
-        "value": "{dimension.scale.64}",
+        "value": "{dimension.scale.80}",
         "type": "dimension",
         "description": "Generous vertical rhythm. Between component groups, case study layout blocks."
       }
