@@ -147,6 +147,156 @@
     "value": "{dimension.scale.56}",
     "type": "dimension"
   },
+  "spacing": {
+    "page-margin": {
+      "value": "{dimension.scale.112}",
+      "type": "dimension",
+      "description": "Horizontal rail separating viewport edge from content."
+    },
+    "inset": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Micro padding. Tight badges, icon-only buttons."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Small padding. Chips, compact tags, small inputs."
+      },
+      "sm": {
+        "value": "{dimension.scale.12}",
+        "type": "dimension",
+        "description": "Default small component padding. Secondary buttons, pills."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default component padding. Primary buttons, inputs, cards."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable padding. Cards, modals, panels."
+      },
+      "xl": {
+        "value": "{dimension.scale.32}",
+        "type": "dimension",
+        "description": "Generous padding. Feature cards, callout blocks."
+      },
+      "2xl": {
+        "value": "{dimension.scale.48}",
+        "type": "dimension",
+        "description": "Spacious padding. Hero cards, large modal interiors."
+      }
+    },
+    "stack": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Tightest vertical rhythm. Caption below label."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Tight vertical rhythm. Icon + label stacks, compact metadata."
+      },
+      "sm": {
+        "value": "{dimension.scale.12}",
+        "type": "dimension",
+        "description": "Close vertical rhythm. Caption to header. Matches --caption-to-header."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default vertical rhythm. Between paragraphs, form field gaps."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable vertical rhythm. Between heading and body copy."
+      },
+      "xl": {
+        "value": "{dimension.scale.40}",
+        "type": "dimension",
+        "description": "Open vertical rhythm. Between major content blocks within a section."
+      },
+      "2xl": {
+        "value": "{dimension.scale.80}",
+        "type": "dimension",
+        "description": "Generous vertical rhythm. Between component groups, case study layout blocks."
+      }
+    },
+    "inline": {
+      "2xs": {
+        "value": "{dimension.scale.4}",
+        "type": "dimension",
+        "description": "Tightest horizontal rhythm. Icon nudge, tight label pairs."
+      },
+      "xs": {
+        "value": "{dimension.scale.8}",
+        "type": "dimension",
+        "description": "Tight horizontal rhythm. Icon + label, breadcrumb separators."
+      },
+      "sm": {
+        "value": "{dimension.scale.12}",
+        "type": "dimension",
+        "description": "Close horizontal rhythm. Button groups, chip rows."
+      },
+      "md": {
+        "value": "{dimension.scale.16}",
+        "type": "dimension",
+        "description": "Default horizontal rhythm. Nav item gaps, tag groups."
+      },
+      "lg": {
+        "value": "{dimension.scale.24}",
+        "type": "dimension",
+        "description": "Comfortable horizontal rhythm. Spaced nav, action rows."
+      },
+      "xl": {
+        "value": "{dimension.scale.40}",
+        "type": "dimension",
+        "description": "Open horizontal rhythm. Between grouped elements in a toolbar."
+      }
+    },
+    "layout": {
+      "flush": {
+        "value": "{dimension.scale.0}",
+        "type": "dimension",
+        "description": "No section padding. Full-bleed media sections."
+      },
+      "xs": {
+        "value": "{dimension.scale.32}",
+        "type": "dimension",
+        "description": "Minimal section padding. Matches --content-spacing-xs."
+      },
+      "sm": {
+        "value": "{dimension.scale.80}",
+        "type": "dimension",
+        "description": "Compact section padding. Matches --content-spacing-md."
+      },
+      "md": {
+        "value": "{dimension.scale.112}",
+        "type": "dimension",
+        "description": "Standard section padding. Matches --page-margin."
+      },
+      "lg": {
+        "value": "152px",
+        "type": "dimension",
+        "description": "Generous section padding. Matches --content-spacing-lg."
+      },
+      "xl": {
+        "value": "{dimension.scale.176}",
+        "type": "dimension",
+        "description": "Extra generous padding. Matches --section-md."
+      },
+      "2xl": {
+        "value": "{dimension.scale.224}",
+        "type": "dimension",
+        "description": "Maximum section padding. Matches --content-spacing-xl."
+      }
+    }
+  },
   "typography": {
     "fontSize": {
       "Display": {
