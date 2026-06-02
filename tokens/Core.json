@@ -385,7 +385,7 @@
         "value": "0",
         "type": "letterSpacing"
       },
-      "4%": {
+      "4": {
         "value": "4%",
         "type": "letterSpacing"
       },
@@ -403,6 +403,32 @@
       },
       "20%": {
         "value": "20%",
+        "type": "letterSpacing"
+      }
+    },
+    "letterSpacing-2": {
+      "n600": {
+        "value": "-6px",
+        "type": "letterSpacing"
+      },
+      "n400": {
+        "value": "-4px",
+        "type": "letterSpacing"
+      },
+      "n200": {
+        "value": "-2px",
+        "type": "letterSpacing"
+      },
+      "n100": {
+        "value": "-1px",
+        "type": "letterSpacing"
+      },
+      "n050": {
+        "value": "-0.5px",
+        "type": "letterSpacing"
+      },
+      "000": {
+        "value": "0px",
         "type": "letterSpacing"
       }
     },
@@ -491,8 +517,36 @@
         "value": "100%",
         "type": "lineHeights"
       },
-      "104": {
-        "value": "104%",
+      "105": {
+        "value": "105%",
+        "type": "lineHeights"
+      },
+      "110": {
+        "value": "110%",
+        "type": "lineHeights"
+      },
+      "115": {
+        "value": "115%",
+        "type": "lineHeights"
+      },
+      "120": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "125": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
+      "130": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "135": {
+        "value": "135%",
+        "type": "lineHeights"
+      },
+      "150": {
+        "value": "150%",
         "type": "lineHeights"
       }
     },
