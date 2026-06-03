@@ -45,34 +45,40 @@
     "fontWeight": {
       "display": {
         "default": {
-          "value": "Black",
-          "type": "fontWeights"
+          "value": "900",
+          "type": "fontWeights",
+          "description": "Black"
         }
       },
       "header": {
         "default": {
-          "value": "Medium",
-          "type": "fontWeights"
+          "value": "500",
+          "type": "fontWeights",
+          "description": "Medium"
         }
       },
       "body": {
         "default": {
-          "value": "Regular",
-          "type": "fontWeights"
+          "value": "400",
+          "type": "fontWeights",
+          "description": "Regular"
         },
         "emphasis": {
-          "value": "Medium",
-          "type": "fontWeights"
+          "value": "500",
+          "type": "fontWeights",
+          "description": "Medium"
         }
       },
       "label": {
         "default": {
-          "value": "Regular",
-          "type": "fontWeights"
+          "value": "400",
+          "type": "fontWeights",
+          "description": "Regular"
         },
         "emphasis": {
-          "value": "Bold",
-          "type": "fontWeights"
+          "value": "700",
+          "type": "fontWeights",
+          "description": "Bold"
         }
       }
     }
