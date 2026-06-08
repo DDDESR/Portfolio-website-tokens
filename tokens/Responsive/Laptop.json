@@ -195,10 +195,6 @@
         "X-Large": {
           "value": "{typography.fontSize.72}",
           "type": "fontSizes"
-        },
-        "2X-Large": {
-          "value": "{typography.fontSize.124}",
-          "type": "fontSizes"
         }
       },
       "Body": {
