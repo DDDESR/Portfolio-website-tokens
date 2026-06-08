@@ -195,10 +195,6 @@
         "X-Large": {
           "value": "{typography.fontSize.96}",
           "type": "fontSizes"
-        },
-        "2X-Large": {
-          "value": "{typography.fontSize.124}",
-          "type": "fontSizes"
         }
       },
       "Body": {
@@ -249,6 +245,32 @@
           "type": "fontSizes"
         }
       }
+    }
+  },
+  "radii": {
+    "none": {
+      "value": "{dimension.radius.0}",
+      "type": "dimension"
+    },
+    "xs": {
+      "value": "{dimension.radius.2}",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "{dimension.radius.4}",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "{dimension.radius.8}",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "{dimension.radius.12}",
+      "type": "dimension"
+    },
+    "full": {
+      "value": "3333px",
+      "type": "dimension"
     }
   }
 }
